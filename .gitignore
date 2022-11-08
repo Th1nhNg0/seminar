@@ -5,3 +5,4 @@ X.pkl
 data/zac2022_train_merged_final_preprocessing.json
 wandb/
 data_gen/
+model/
