@@ -7,8 +7,10 @@ import transformers
 from transformers import (AutoModelForQuestionAnswering, AutoTokenizer,
                           Trainer, TrainingArguments, default_data_collator,
                           pipeline)
+from pandarallel import pandarallel
+pandarallel.initialize(progress_bar=True)
 
-model_checkpoint = "bert-base-multilingual-cased"
+model_checkpoint = "deepset/roberta-base-squad2"
 batch_size = 16
 
 
@@ -93,9 +95,10 @@ def main():
 
         return tokenized_examples
 
-    with open('data/zac2022_train_merged_final.json', encoding='utf-8') as f:
+    with open('../data/zac2022_train_merged_final.json', encoding='utf-8') as f:
         data = json.load(f)
-    df = pd.json_normalize(data, 'data')
+        df = pd.json_normalize(data, 'data')
+
     # 2 trường hợp output là có hoặc không có câu trả lời
     df = df[(df['category'] == 'FULL_ANNOTATION') |
             (df['category'] == 'FALSE_LONG_ANSWER')]
@@ -157,7 +160,7 @@ def main():
 
     trainer.train()
 
-    trainer.save_model("model_2/saved")
+    trainer.save_model("../model_2/saved")
 
 
 if __name__ == '__main__':
