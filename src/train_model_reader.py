@@ -1,16 +1,14 @@
-
 import json
 
 import datasets
 import pandas as pd
-import transformers
-from transformers import (AutoModelForQuestionAnswering, AutoTokenizer,
-                          Trainer, TrainingArguments, default_data_collator,
-                          pipeline)
 from pandarallel import pandarallel
+from transformers import (AutoModelForQuestionAnswering, AutoTokenizer,
+                          Trainer, TrainingArguments, default_data_collator)
+
 pandarallel.initialize(progress_bar=True)
 
-model_checkpoint = "deepset/roberta-base-squad2"
+model_checkpoint = "bert-base-multilingual-cased"
 batch_size = 16
 
 
@@ -95,24 +93,27 @@ def main():
 
         return tokenized_examples
 
-    with open('../data/zac2022_train_merged_final.json', encoding='utf-8') as f:
-        data = json.load(f)
-        df = pd.json_normalize(data, 'data')
+    # data btc
+    with open('../data/zac2022_train_merged_final.json',encoding='utf-8') as f:
+        data=json.load(f)
+        df = pd.json_normalize(data,'data')
+    df = df[(df['category'] == 'FULL_ANNOTATION') | (df['category'] == 'FALSE_LONG_ANSWER')]
+    df['short_candidate_length'] = df['short_candidate'].apply(lambda x: len(x) if type(x) == str else 0)
+    df = df.drop(['answer','title','is_long_answer','category','id'], axis=1)
 
-    # 2 trường hợp output là có hoặc không có câu trả lời
-    df = df[(df['category'] == 'FULL_ANNOTATION') |
-            (df['category'] == 'FALSE_LONG_ANSWER')]
-    # độ dài của câu trả lời
-    df['short_candidate_length'] = df['short_candidate'].apply(
-        lambda x: len(x) if type(x) == str else 0)
+    # data MLQA
+    mlqa_df = pd.read_csv('../data_gen/MLQA_V1_vi.csv')
+    mlqa_df.rename(columns={'context':'text','answer':'short_candidate','answer_start':'short_candidate_start'}, inplace=True)
+    mlqa_df['short_candidate_length'] = mlqa_df['short_candidate'].apply(lambda x: len(x) if type(x) == str else 0)
+
+    df = pd.concat([df, mlqa_df], ignore_index=True)
 
     dataset = datasets.Dataset.from_pandas(df)
     dataset = dataset.map(lambda example: {'answers': {'answer_start': [example['short_candidate_start']] if example['short_candidate_start'] != None else [],
                                                        'text': [example['short_candidate']] if example['short_candidate'] != None else []}})
     dataset = dataset.map(lambda example: {
         'context': example['text']}, batched=True, remove_columns='text')
-    dataset = dataset.remove_columns(['answer', 'short_candidate_start',
-                                      'short_candidate', 'short_candidate_length', 'is_long_answer', 'category'])
+    dataset = dataset.remove_columns(['short_candidate_start','title', 'short_candidate', 'short_candidate_length'])
     dataset = dataset.train_test_split(test_size=0.1, seed=42)
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
     max_length = 384
@@ -125,7 +126,7 @@ def main():
 
     model = AutoModelForQuestionAnswering.from_pretrained(model_checkpoint)
     args = TrainingArguments(
-        f"model_2",
+        f"../model_2",
 
         learning_rate=2e-5,
         weight_decay=0.01,
