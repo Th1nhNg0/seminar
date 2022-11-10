@@ -102,7 +102,7 @@ def main():
     df = df.drop(['answer','title','is_long_answer','category','id'], axis=1)
 
     # data MLQA
-    mlqa_df = pd.read_csv('../data_gen/MLQA_V1_vi.csv')
+    mlqa_df = pd.read_csv('../data/MLQA_V1_vi.csv')
     mlqa_df.rename(columns={'context':'text','answer':'short_candidate','answer_start':'short_candidate_start'}, inplace=True)
     mlqa_df['short_candidate_length'] = mlqa_df['short_candidate'].apply(lambda x: len(x) if type(x) == str else 0)
 
