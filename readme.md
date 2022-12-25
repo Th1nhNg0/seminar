@@ -1,7 +1,7 @@
 overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 
 📜 TO-DO:
-- [X] Viết journal cho phần baseline
+- [ ] Viết journal cho phần baseline
 - [ ] Preprocessing wiki data
 - [ ] Metric used for re-rank answer 
 
