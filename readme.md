@@ -1,6 +1,6 @@
 overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 
-📜 TASK:
+📜 TO-DO:
 - [ ] Viết journal cho phần baseline
 - [ ] Preprocessing wiki data
 - [ ] Metric used for re-rank answer 
