@@ -9,7 +9,6 @@ overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
   
   w0 + w1= 1 
 - [ ] Run all dataset for base line: WIKI, UIT, SQUAD, FACEBOOK QA
-- [ ] threshold cho cau tra loi null = 0.6
-- [ ] Trường hợp không trả lời được câu hỏi? 
+- [ ] Trường hợp không trả lời được câu hỏi?  -> threshold cho cau tra loi null = 0.6
 - [ ] Chạy context của dataset trước để thử nghiệm mấy task trên cho nhanh
 - [ ] Context là wiki, chỉ lấy cấu hỏi và gt từ các dataset
