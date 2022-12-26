@@ -1,5 +1,11 @@
 overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 
+
+🏃‍♂️ RESULT:
+- BASE LINE: [baseline summary](baseline_summary.md)
+
+
+
 📜 TO-DO:
 - [ ] 1. Viết journal cho phần baseline
 - [ ] 2. Preprocessing wiki data
