@@ -1,0 +1,630 @@
+question,prediction,truth,exact_match,f1
+Chuẩn đầu ra tiếng Pháp?,DELF_B1 hoặc TCF_niveau_3.,DELF_B1 hoặc TCF_niveau_3,0,0.6666666666666666
+Chuẩn đầu ra tiếng Nhật cho sinh viên hệ chính quy?,JLPT_N3,JLPT_N3,1,1.0
+Lớp học phần đại cương tối thiều nhiêu sinh viên?,50,50 sinh viên,0,0.5
+Nếu em vi phạm trong lúc thi thì xứ lý như thế nào?,đình chỉ học tập 1 năm học,xử lý kỷ luật,0,0.0
+Yêu cầu số tín chỉ tích lũy theo năm?,30 ≤ n < k × 30,thỏa điều kiện: (k-1) × 30 ≤ n < k × 30,0,0.631578947368421
+Học phí học kì hè?,HPTCHM × ∑TCHPHM,HPTCHM × ∑TCHPHM + HPTCHL × ∑TCHPHL + HPTCCT × ∑TCHPCT,0,0.42857142857142855
+Chương trình nào được xây dựng dựa trên chương trình đại trà?,Chương trình liên thông và văn bằng hai,Chương trình liên thông và văn bằng hai,1,1.0
+Một học kỳ hè diễn ra trong bao lâu?,vụ.,5 tuần thực học và 1 tuần thi,0,0.0
+1 tín chỉ có mấy tiết lí thuyết?,15 tiết,15 tiết học,0,0.8
+Kết quả đạt?,"5 điểm trở lên),",từ 5 điểm trở lên,0,0.6666666666666665
+Có bao nhiêu kỳ kiểm tra trong một học kỳ chính?,2,Hai đợt thi,0,0.0
+Ai tổ chức một kỳ kiểm tra giữa kỳ và một kỳ thi kết thúc học kỳ ở mỗi học kỳ chính?,Trường,Trường,1,1.0
+Chương trình liên kết giữa Trường với các cơ sở liên kết đào tạo trong và ngoài nước được xây dựng trên cơ sở nào?,quy định về chương trình đào tạo,quy định về chương trình đào tạo của ĐHQG-HCM,0,0.8750000000000001
+Chương trình đào tạo nào được xây dựng dựa trên thoả thuận?,Chương,Chương trình liên kết,0,0.4
+Chương trình chất lượng cao dựa vào đâu?,chương trình đại trà;,chương trình đại trà,0,0.75
+Chương trình chất lượng cao có gì đặc biệt hơn so với chương trình đại trà?,"đáp ứng mục tiêu và chuẩn đầu ra cao hơn,",mục tiêu và chuẩn đầu ra cao hơn,0,0.7777777777777777
+Đối với sinh viên quá hạn đào tạo nhưng được gia hạn để trả nợ (không học học phần mới) thì học phí được tính thế nào?,tín chỉ với mức học phí cho loại tín chỉ học phí học lại.,đóng học phí theo tín chỉ,0,0.4
+Học phí đối với sinh viên quá hạn đào tạo nhưng được gia hạn để trả nợ tính theo loại tín chỉ nào?,tín chỉ,tín chỉ học phí học lại,0,0.5
+Khi nào được trường cấp bằng?,sĩ.,khi có nhu cầu,0,0.0
+Quy định nào nói về việc cấp bằng?,"Bản chính văn bằng, chứng chỉ được cấp một lần",Điều 14,0,0.0
+Căn cứ để chình văn bằng dựa vào đâu?,"Quyết định chỉnh sửa văn bằng, chứng chỉ","thông tin trong sổ gốc cấp văn bằng, chứng chỉ và thông tin trong hồ sơ tốt nghiệp",0,0.30769230769230765
+Xét học bổng có tính trên cơ sở nào?,quy định về chương trình đào tạo của ĐHQG-HCM,ĐTBHK,0,0.0
+"Điểm I hay điểm M có được tính trong ĐTBHK, ĐTBTLTK hay ĐTBCTL không?",không,không được tính,0,0.5
+Điểm bảo lưu được tính vào loại điểm nào ạ?,Điểm trung bình tích lũy toàn khóa,"ĐTBTLTK, ĐTBCTL",0,0.0
+Kế hoạch học tập của mỗi học kỳ và năm học bao gồm những gì?,hè.,thời gian biểu,0,0.0
+Kế hoạch học tập được công bố ở đâu?,"website Trường và bản tin, sổ tay sinh viên.",rộng rãi trên website Trường,0,0.2857142857142857
+Sinh viên có thể xem kế hoạch học tập ở đâu?,"website Trường và bản tin, sổ tay sinh viên.","website Trường và bản tin, sổ tay sinh viên",0,0.8888888888888888
+Phương thức đào tạo mà trường sử dụng là gì?,thức.,học chế tín chỉ,0,0.0
+Vì sao trường sử dụng phương thức đào tạo học chế tín chỉ?,không,tích lũy kiến thức trong mọi thời điểm,0,0.0
+Trường yêu câu ở sinh viên điều gì?,học.,"tích cực, chủ động",0,0.0
+Điểm ĐTBHK làm tròn đến đâu?,"0,01.","0,01",0,0.0
+Các học phần trong chương trình đào tạo được sắp xếp như thế nào?,theo trình tự nhất định vào từng học kỳ của khóa đào tạo.,nhất định,0,0.2666666666666667
+Vì sao cần phải tuân thủ theo trình tự này?,thuận lợi nhất cho việc tiếp thu kiến thức.,để thuận lợi nhất cho việc tiếp thu kiến thức,0,0.8421052631578948
+Ai khuyến cáo sinh viên nên tuân thủ theo trình tự các học phần trong chương trình đào tạo đã được sắp xếp?,Trường,Trường,1,1.0
+Sinh viên được phép học không theo trình tự của trường không?,không,nên tuân thủ,0,0.0
+Sinh viên có nên thay đổi trình tự các học phần trong chương trình đào tạo đã được sắp xếp hay không?,nên,nên tuân thủ,0,0.5
+"Chương trình tiên tiến được thiết kế, xây dựng dựa trên cơ sở nào?",chương trình đang được áp dụng ở trường đại học tiên tiến trên thế giới,chương trình đang được áp dụng ở trường đại học tiên tiến trên thế giới,1,1.0
+Chương trình đang được áp dụng ở trường đại học tiên tiến trên thế giới được gọi tắt là gì?,chương trình gốc),chương trình gốc,0,0.6666666666666666
+Chương trình đang được áp dụng ở trường đại học tiên tiến trên thế giới được lấy làm cơ sở cho chương trình đào tạo nào ở Việt Nam?,Chương trình tiên tiến,Chương trình tiên tiến,1,1.0
+Mục tiêu của chương trình tiên tiến?,đáp ứng mục tiêu của chương trình tiên tiến;,đáp ứng mục tiêu của chương trình tiên tiến,0,0.8888888888888888
+Au quy định điều lệ của chương trình đào tạo?,Điều 6,Bộ GD&ĐT và ĐHQG-HCM,0,0.0
+Mình có thể học liên thông với chương trình khác không?,văn bằng hai,có khả năng liên thông,0,0.0
+Tổng số tín chỉ của các chương trình đào tạo tối thiểu là bao nhiêu và tối đa là bao nhiêu?,30,tối thiểu là 120 và tối đa là 140,0,0.0
+Ai là người phê duyệt chương trình đào tạo?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Mỗi lớp sinh viên có mấy cố vấn?,một,một,1,1.0
+Cố vấn học tập được phân công phụ trách đối tượng nào?,Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo,lớp sinh viên,0,0.0
+Ai là người ra quyết định bổ nhiệm Cố vấn học tập?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Cố vấn học tập do ai đề nghị để Hiệu trưởng ra quyết định bổ nhiệm?,Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo,Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo,1,1.0
+Nhiệm vụ cụ thể của Cố vấn học tập là gì?,có quy định riêng.,quy định riêng,0,0.5714285714285715
+"Đầu khóa học, trường có trách nhiệm thông báo cho sinh viên về vấn đề gì?",viên.,"Chương trình đào tạo toàn khóa cho từng ngành học, Quy chế học tập và các quy định của Trường, Quyền lợi và nghĩa vụ của sinh viên",0,0.0
+"Đầu khóa học, sinh viên sẽ nhận được thông báo về những vấn đề gì?",viên.,"Chương trình đào tạo toàn khóa cho từng ngành học, Quy chế học tập và các quy định của Trường, Quyền lợi và nghĩa vụ của sinh viên",0,0.0
+Sinh viên làm sao để biết về chương trình đào tạo toàn khóa cho từng ngành học?,Trường có trách nhiệm thông báo,Trường có trách nhiệm thông báo,1,1.0
+Ai có trách nhiệm thông báo cho sinh viên học phí?,Trường,Trường,1,1.0
+Thời khóa biểu giảng dạy được thông báo cho sinh viên khi nào?,"Đầu mỗi học kỳ,",Đầu mỗi học kỳ,0,0.75
+Khi nào sinh viên được biết các thay đổi trong chương trình đào tạo?,căn cứ chương trình môn học và kết quả trên bảng điểm học tập,Đầu mỗi năm học,0,0.11111111111111112
+Chương trình tài năng được xây dựng dựa trên chương trình đào tạo nào?,đại trà;,chương trình đại trà,0,0.3333333333333333
+Mục tiêu cùa chương trình tài năng là gì?,tuyển chọn và tạo điều kiện phát triển cho các sinh viên xuất sắc.,tuyển chọn và tạo điều kiện phát triển,0,0.7272727272727273
+Mục đích ra đời của chương trình tài năng?,tuyển chọn và tạo điều kiện phát triển cho các sinh viên xuất sắc.,tuyển chọn và tạo điều kiện phát triển,0,0.7272727272727273
+Chương trình tài năng cần đáp ứng những mục tiêu gì?,tuyển chọn và tạo điều kiện phát triển cho các sinh viên xuất sắc.,tuyển chọn và tạo điều kiện phát triển cho các sinh viên xuất sắc,0,0.9285714285714286
+Có yêu cầu nào đối với số tín chỉ các môn học tài năng không?,tối thiểu phải chiếm 25% tổng số tín chỉ của toàn chương trình đào tạo,tối thiểu phải chiếm 25% tổng số tín chỉ của toàn chương trình đào tạo,1,1.0
+Tỷ lệ số tín chỉ các môn học tài năng tối thiểu phải chiếm bao phần trăm tổng số tín chỉ của toàn chương trình đào tạo?,25%,25% ,0,1.0
+Năm học có bao nhiêu học kỳ chính?,2,2,1,1.0
+"Ngoài học kỳ chính, trường có tổ chức học kỳ hè không?",không,Tùy theo điều kiện,0,0.0
+Không đạt thì đăng ký học lại thì học lại khi nào?,"đã học có kết quả đạt (từ 5 điểm trở lên),",học kỳ hè,0,0.14285714285714288
+Điểm rèn luyện dưới mức nào thì bị loại khỏi chương trình tài năng?,trở về  lớp đào tạo đại trà.Nếu,mức KHÁ,0,0.0
+Trọng số của ĐTBCTL là gì?,số tín chỉ của mỗi môn học,là số tín chỉ của mỗi môn học ,0,0.9333333333333333
+Em không biết điểm trung bình của các môn học mà em đã đăng ký kể từ lúc mới vào khóa học cho đến một thời điểm nào đó thì được gọi là điểm gì ạ?,Điểm trung bình chung tích lũy (ĐTBCTL),Điểm trung bình chung tích lũy (ĐTBCTL),1,1.0
+"Em là sinh viên đại trà, cho em hỏi là loại điểm nào dùng để xét điều kiện làm khóa luận tốt nghiệp?",Điểm trung bình chung tích lũy (ĐTBCTL),ĐTBCTL,0,0.0
+Mục đích của ĐTBCTL?,nghiệp,"xét số tín chỉ được phép đăng ký trong học kỳ, học vượt, xét chuyển ngành/chương trình, xét điều kiện làm khóa luận tốt nghiệp",0,0.07692307692307693
+Loại điểm nào dùng để xét số tín chỉ được phép đăng ký trong học kỳ?,Điểm trung bình chung tích lũy,Điểm trung bình chung tích lũy (ĐTBCTL) ,0,0.923076923076923
+Một trong những cơ sở dùng để xét số tín chỉ được phép đăng ký trong học kỳ là gì?,Điểm trung bình chung tích lũy (ĐTBCTL),Điểm trung bình chung tích lũy (ĐTBCTL) ,0,1.0
+"Em muốn đăng ký học vượt, Trường sẽ dùng loại điểm nào của em để làm điều kiện xem xét cho chuyện đó ạ?",Điểm trung bình chung tích lũy,Điểm trung bình chung tích lũy (ĐTBCTL) ,0,0.923076923076923
+Chương trình đào tạo bao gồm bao nhiêu khối kiến thức?,hai,hai khối kiến thức,0,0.4
+Tại sao chương trình đào tạo lại chia làm đại cương và chuyên nghành?,các đơn vị quản lý chuyên môn có trách nhiệm cho sinh viên đăng ký,trang bị cho sinh viên nền học vấn rộng,0,0.25
+Toán nằm trong khối kiến thức nào?,Khối kiến thức giáo dục đại cương,Khối kiến thức giáo dục đại cương và cơ sở nhóm ngành,0,0.7368421052631579
+Mục đích chính của khối kiến thức giáo dục đại cương và cơ sở nhóm ngành?,nhằm,trang bị cho sinh viên nền học vấn rộng,0,0.0
+Chính trị Mác Lê Nin là môn thuộc nhóm gì?,khối kiến thức,Khối kiến thức giáo dục đại cương và cơ sở nhóm ngành,0,0.26666666666666666
+Thời gian tổ chức đào tạo khối kiến thức giáo dục đại cương và cơ sở nhóm ngành?,4 học kỳ đầu,4 học kỳ đầu ,0,1.0
+Khối kiến thức giáo dục chuyên nghiệp cung cấp cho người học điều gì?,những kiến thức và kỹ năng nghề nghiệp cần thiết.,kiến thức và kỹ năng nghề nghiệp cần thiết,0,0.8421052631578948
+Học phí học kỳ là gì ?,HPHK:,khoản tiền sinh viên phải đóng khi có đăng ký học phần mới trong học kỳ chính,0,0.0
+Định nghĩa Học phí học kỳ,HPHK:,khoản tiền sinh viên phải đóng khi có đăng ký học phần mới trong học kỳ chính,0,0.0
+HPHK phụ thuộc vào đâu?,không phụ thuộc vào số lượng tín chỉ sinh viên đăng ký học.,không phụ thuộc vào số lượng tín chỉ sinh viên đăng ký học,0,0.9230769230769231
+HPHK có phụ thuộc vào số lượng tín chỉ sinh viên đăng ký học không?,không,không phụ thuộc,0,0.5
+Ai là người quyết định mức học phí học kỳ?,sinh viên đang học tại Trường,Hiệu trưởng,0,0.0
+Hiệu trưởng quyết định mức HPHK phải không?,không,Hiệu trưởng quyết định,0,0.0
+Sinh viên phải đóng HPHK khi nào?,khi có đăng ký học phần mới trong học kỳ chính.,có đăng ký học phần mới trong học kỳ chính,0,0.761904761904762
+Em đã thi ở một trường Đại học khác và có kết quả nhưng em không biết điểm thì phải làm gì?,đăng ký học lại.,phải làm đơn kèm xác nhận về P. ĐTĐH,0,0.0
+Điểm M dùng để làm gì?,phân loại kết quả học tập và xếp hạng tốt nghiệp.,phân biệt với loại điểm mà sinh viên tích lũy được bằng cách thi,0,0.16
+"Em thấy trong phiếu điểm của một số bạn có chữ M, không biết ý nghĩa của nó là gì ạ?",bảo lưu,phân biệt với loại điểm mà sinh viên tích lũy được bằng cách thi,0,0.0
+Để được xét điểm M thì phải làm thủ tục gì?,số tín chỉ,làm đơn kèm xác nhận về P. ĐTĐH để xem xét,0,0.0
+Vì sao em thấy trong học bạ của một số bạn có chữ M mà em lại không có?,Điểm bảo lưu:,phân biệt với loại điểm mà sinh viên tích lũy được bằng cách thi,0,0.0
+"Đơn xin xác nhận điểm M em làm xong rồi, nhưng không biết phải gửi ai ạ?",P. ĐTĐH của Trường,P. ĐTĐH,0,0.6666666666666666
+Cho em hỏi trường làm cách nào để phân biệt điểm có được của một học phần khác ở một CSĐT khác với điểm tích lũy khi thi?,ghi điểm học phần bằng ký hiệu (M),ghi điểm học phần bằng ký hiệu (M) để phân biệt ,0,0.8421052631578948
+"Em được Trường cử đi tham gia kỳ thi quốc gia, thì thành tích của em trong kỳ thi đó có được ghi nhận vào điểm học phần hay không?",không,sinh viên được nhận điểm M hoặc điểm cụ thể,0,0.0
+Trường sẽ tiến hành xử lý học vụ vào khoảng thời gian nào?,sau học kỳ 1 và sau học kỳ hè.,sau học kỳ 1 và sau học kỳ hè,0,0.5555555555555556
+Có bao nhiêu đợt xử lý học vụ?,2,2 đợt,0,0.6666666666666666
+Ai sẽ tiến hành xử lý học vụ?,Trường,Trường,1,1.0
+Đợt 2 của việc xử lý học vụ sẽ được tiến hành vào khoảng thời gian nào?,học kỳ hè.,sau học kỳ hè,0,0.5714285714285715
+"Hằng năm, sau học kỳ 1 và sau học kỳ hè, Trường sẽ tiến hành làm gì?",xử lý học vụ,xử lý học vụ ,0,1.0
+Kết quả học tập của học kỳ hè sẽ được tính chung vào kết quả học tập của học kỳ nào?,học kỳ 2,học kỳ 2 của năm học tương ứng,0,0.5454545454545454
+"Khi xem xét xử lý học vụ, kết quả học tập của học kỳ hè sẽ được tính như thế nào?",hè.,tính chung vào kết quả học tập học kỳ 2 của năm học tương ứng,0,0.0
+Chương trình đào tạo 2 nghành gọi là gì?,"chương trình song ngành,",Chương trình song ngành,0,0.5
+Ngành thứ 2 phải như thế nào để được xét là học song nghành?,lên.,khối lượng kiến thức từ 30 tín chỉ trở lên,0,0.0
+Chương trình đào tạo ngành thứ nhất của chương trình song ngành phải như thế nào?,Đã hoàn thành học kỳ 1 năm học,quy định tại Điều 7,0,0.0
+Yêu cầu số lượng tín chỉ tối thiểu của chương trình đào tạo ngành thứ hai của chương trình song ngành là bao nhiêu?,hai,30 tín chỉ trở lên ,0,0.0
+"Những nội dung giống nhau, tương đương giữa hai chương trình đào tạo của chương trình song ngành được tính như nào?",khối lượng kiến thức một lần).,khối lượng kiến thức một lần,0,0.8333333333333334
+Việc tổ chức và quản lý đào tạo được thực hiện liên thông giữa những cơ quan nào?,"các khoa, bộ môn trong Trường hoặc giữa các CSĐT trong ĐHQG-","giữa các khoa, bộ môn trong Trường hoặc giữa các CSĐT trong ĐHQG- HCM",0,0.7692307692307692
+Cơ quan nào thực hiện việc tổ chức và quản lý đào tạo chương trình song ngành,ĐHQG- HCM,"các khoa, bộ môn trong Trường hoặc giữa các CSĐT trong ĐHQG- HCM",0,0.2666666666666667
+"Các khoa, bộ môn trong Trường hoặc giữa các CSĐT trong ĐHQG-HCM thực hiện chức năng gì trong chương trình song ngành?",Việc tổ chức và quản lý đào tạo,tổ chức và quản lý đào tạo,0,0.9333333333333333
+Sinh viên có hoàn cảnh đặc biệt khó khăn không thể hoàn thành học phí đúng hạn thì phải làm gì?,làm đơn xin gia hạn đóng học phí,làm đơn xin gia hạn đóng học phí và nộp về Phòng Kế hoạch – Tài chính,0,0.6399999999999999
+Bộ phận (phòng ban) nào giải quyết trường hợp sinh viên không kịp đóng học phí?,Phòng Kế hoạch – Tài chính,Phòng Kế hoạch – Tài chính ,0,1.0
+Đơn xin gia hạn đóng học phí nộp ở đâu?,Phòng Kế hoạch – Tài chính,Phòng Kế hoạch – Tài chính ,0,1.0
+Đối tượng nào được làm đơn xin gia hạn đóng học phí?,sinh,sinh viên có hoàn cảnh đặc biệt khó khăn,0,0.19999999999999998
+Sinh viên có hoàn cảnh đặc biệt khó khăn không thể hoàn thành học phí đúng hạn thì nộp đơn xin gia hạn đóng học phí ở đâu,Phòng Kế hoạch – Tài chính,Phòng Kế hoạch – Tài chính ,0,1.0
+Thời hạn để sinh viên có hoàn cảnh đặc biệt khó khăn không thể hoàn thành học phí đúng hạn nộp đơn xin gia hạn học phí?,trước thời hạn đóng học phí,trước thời hạn đóng học phí,1,1.0
+Đơn xin gia hạn đóng học phí được xét khi nào?,trước thời hạn đóng học phí,không thể hoàn thành học phí đúng hạn,0,0.42857142857142855
+Đơn xin gia hạn đóng học phí nộp sau thời hạn đóng học phí theo quy định có được không?,Nếu sinh viên có hoàn cảnh đặc biệt khó khăn không,trước thời hạn đóng học phí,0,0.0
+Điểm rèn luyện tối thiểu để nộp hồ sơ đề nghị xét tốt nghiệp?,50 điểm.,50 điểm,0,0.5
+Cần phải tích lũy bao nhiêu điểm rèn luyện để nộp hồ sơ đề nghị xét tốt nghiệp?,50 điểm.,tối thiểu là 50 điểm,0,0.28571428571428575
+Ai là người quyết định cho sinh viên tốt nghiệp?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Cần phải được ai thông qua thì sinh viên mới được công nhận tốt nghiệp?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Điểm trung bình tích lũy toàn khóa (ĐTBTLTK) tính như thế nào á?,"theo kết quả của các học phần đạt từ điểm 5,0 trở lên","heo kết quả của các học phần đạt từ điểm 5,0 trở lên",0,0.9230769230769231
+Em không biết cách tính điểm trung bình tích lũy toàn khóa?,(ĐTBTLTK),"tính theo kết quả của các học phần đạt từ điểm 5,0 trở lên ",0,0.0
+"Loại điểm tính theo kết quả của các học phần đạt từ điểm 5,0 trở lên mà sinh viên đã đăng ký học tại Trường được gọi là gì?",Điểm trung bình tích lũy toàn khóa (ĐTBTLTK),Điểm trung bình tích lũy toàn khóa,0,0.9333333333333333
+ĐTBTLTK có tính luôn điểm của các học phần đã bảo lưu không?,(kể,kể cả các học phần có điểm bảo lưu,0,0.0
+"Em có bảo lưu một số học phần, không biết điểm của những học phần này có được tính gộp vào điểm trung bình tích lũy toàn khóa hay không?",Không,kể cả các học phần có điểm bảo lưu,0,0.0
+ĐTBTLTK được dùng để làm gì?,phân loại kết quả học tập và xếp hạng tốt nghiệp.,phân loại kết quả học tập và xếp hạng tốt nghiệp,0,0.9090909090909091
+Dựa vào đâu ta có thể phân loại kết quả học tập và xếp hạng tốt nghiệp?,Điểm trung bình tích lũy toàn khóa (ĐTBTLTK),Điểm trung bình tích lũy toàn khóa,0,0.9333333333333333
+Phân loại kết quả học tập và xếp hạng tốt nghiệp bằng cách nào vậy?,Điểm trung bình tích lũy toàn khóa (ĐTBTLTK),Điểm trung bình tích lũy toàn khóa,0,0.9333333333333333
+Điểm trung bình tích lũy toàn khóa của em được tính khi nào?,"sinh viên đủ điều kiện tốt nghiệp,",ĐTBTLTK được tính khi sinh viên đủ điều kiện tốt nghiệp,0,0.6666666666666665
+Điều kiện để sinh viên được dự thi kết thúc học phần với lớp lí thuyết?,Có mặt ở lớp từ 80% trở lên thời gian,Có mặt ở lớp từ 80% trở lên thời gian quy định,0,0.9090909090909091
+Sinh viên được dự thi kết thúc học phần nếu hội đủ các điều kiện nào với lớp thực hành?,Sinh,"tham dự đầy đủ thời gian quy định cho học phần thực hành, Nộp đầy đủ các bài kiểm tra sau mỗi bài thực hành",0,0.0
+Ai nào không cần có mặt mặt ở lớp vẫn có thể được dự thi kết thúc học phần?,từ 80%,sinh viên được Hiệu trưởng cho phép học thêm ngành chuyên môn khác,0,0.0
+Đối với các ngành đào tạo có chia chuyên ngành thì các đơn vị quản lý chuyên môn có trách nhiệm gì?,cho sinh viên đăng ký chuyên ngành sau khi kết thúc học kỳ thứ 5.,cho sinh viên đăng ký chuyên ngành,0,0.6363636363636364
+Đơn vị quản lý chuyên môn thực hiện nhiệm vụ gì đối với các ngành đào tạo có chia chuyên ngành?,cho sinh viên đăng ký chuyên ngành sau khi kết thúc học kỳ thứ 5.,cho sinh viên đăng ký chuyên ngành,0,0.6363636363636364
+Sinh viên được đăng ký chuyên ngành khi nào?,sau khi kết thúc học kỳ thứ 5.,sau khi kết thúc học kỳ thứ 5,0,0.875
+Học kì nào sinh viên bắt đầu đăng ký chuyên ngành?,học kỳ thứ 5.,học kỳ thứ 5,0,0.75
+Đơn vị nào chịu trách nhiệm cho sinh viên đăng ký chuyên ngành đối với các ngành đào tạo có chia chuyên ngành?,các đơn vị quản lý chuyên môn,các đơn vị quản lý chuyên môn ,0,1.0
+Đơn vị quản lý chuyên môn làm gì?,cung cấp danh sách sinh viên theo chuyên ngành cho P.ĐTĐH,cung cấp danh sách sinh viên theo chuyên ngành,0,0.9
+Chức năng của P.ĐTĐH trong việc cho sinh viên đăng ký chuyên ngành?,làm căn cứ mở lớp và xét tốt nghiệp.,làm căn cứ mở lớp và xét tốt nghiệp,0,0.8888888888888888
+Danh sách sinh viên được cung cấp bởi đơn vị nào?,Đơn vị quản lý chuyên môn,Đơn vị quản lý chuyên môn,1,1.0
+Vì sao đơn vị quản lý chuyên môn phải cung cấp danh sách sinh viên theo chuyên ngành cho P.ĐTĐH?,làm căn cứ mở lớp và xét tốt nghiệp.,làm căn cứ mở lớp và xét tốt nghiệp,0,0.8888888888888888
+Chương trình đào tạo có các môn học bổ trợ kiến thức khác được gọi là gì?,Chương trình ngành chính - ngành phụ,Chương trình ngành chính - ngành phụ,1,0.8571428571428571
+Khối lượng kiến thức của chương trình ngành chính - ngành phụ?,từ 30 tín chỉ trở lên,từ 15 đến 29 tín chỉ,0,0.5
+Số tín chỉ đạt được sau khi hoàn thành chương trình ngành chính - ngành phụ?,70%,từ 15 đến 29 tín chỉ,0,0.0
+Các kiến thức của chương trình ngành chính - ngành phụ chủ yếu thuộc khối kiến thức nào?,khối kiến thức ngành.,khối kiến thức ngành,0,0.75
+Khối kiến thức nào chiếm tỉ lệ cao trong chương trình ngành chính - ngành phụ?,khối kiến thức ngành.,khối kiến thức ngành,0,0.75
+Mục đích của chương trình ngành chính - ngành phụ?,bổ sung thêm các môn học của chương trình đào tạo ngành thứ hai,bổ sung thêm các môn học của chương trình đào tạo,0,0.88
+Các môn học bổ sung được thể hiện qua điều gì?,bảng điểm cấp kèm theo bằng tốt nghiệp.,bảng điểm cấp kèm theo bằng tốt nghiệp,0,0.875
+Thế nào là sinh viên tự do?,trước.,đã hết thời hạn tối đa của khóa học và chưa đủ điều kiện tốt nghiệp,0,0.0
+Sinh viên tự do bao gồm những đối tượng nào?,những học phần chứa đựng những nội dung kiến thức cần thiết,sinh viên chính quy đã hết thời hạn tối đa của khóa học và chưa đủ điều kiện tốt nghiệp,0,0.0625
+Đối tượng nào được liệt kê vào danh sách sinh viên tự do?,sinh viên chính quy đã hết,"sinh viên chính quy đã hết thời hạn tối đa của khóa học và chưa đủ điều kiện tốt nghiệp, có nguyện vọng hoàn tất chương trình đào tạo hoặc là sinh viên chính quy có khả năng bị xử lý học vụ hình thức buộc thôi học vì lý do học tập nhưng đã đạt số tín chỉ tích lũy tối thiểu là 70% so với chương trình đào tạo của khóa học và ngành tương ứng, có nguyện vọng hoàn tất chương trình đào tạo",0,0.12903225806451613
+"Những sinh viên chính quy đã hết thời hạn tối đa của khóa học và chưa đủ điều kiện tốt nghiệp, có nguyện vọng hoàn tất chương trình đào tạo hoặc là sinh viên chính quy có khả năng bị xử lý học vụ hình thức buộc thôi học vì lý do học tập nhưng đã đạt số tín chỉ tích lũy tối thiểu là 70% so với chương trình đào tạo của khóa học và ngành tương ứng, có nguyện vọng hoàn tất chương trình đào tạo được gọi là gì?",Sinh viên tự do,Sinh viên tự do,1,1.0
+Sinh viên tự do đạt được điều kiện nào thì được xét bằng tốt nghiệp?,học, hoàn thành chương trình học trong thời gian không quá 2 lần thời gian thiết kế của khóa học,0,0.1
+"Làm sao để sinh viên tự do nhận được bằng tốt nghiệp?
+",học, hoàn thành chương trình học trong thời gian không quá 2 lần thời gian thiết kế của khóa học,0,0.1
+"Để nhận được bằng tốt nghiệp, sinh viên tự do cần làm gì?",học, hoàn thành chương trình học trong thời gian không quá 2 lần thời gian thiết kế của khóa học,0,0.1
+Sinh viên tự do được xét tốt nghiệp khi nào?,không quá 2 lần thời gian thiết kế của khóa học,Sinh viên tự do hoàn thành chương trình học trong thời gian không quá 2 lần thời gian thiết kế của khóa học thì được xét cấp bằng tốt nghiệp,0,0.5365853658536585
+Giấy chứng nhận hoàn thành chương trình đào tạo được cấp trong trường hợp nào?,nếu hoàn thành nhưng quá 2 lần thời gian thiết kế của khóa học,nếu hoàn thành nhưng quá 2 lần thời gian thiết kế của khóa học thì Trường chỉ cấp giấy chứng nhận hoàn thành chương trình đào tạo,0,0.6829268292682926
+Mỗi khối kiến thức có bao nhiêu nhóm học phần?,hai,2,0,0.0
+Nhóm học phần bắt buộc gồm những học phần nào?,"những nội dung kiến thức chính yếu của ngành đào tạo,",gồm những học phần chứa đựng những nội dung kiến thức chính yếu của ngành đào tạo,0,0.7142857142857143
+Đặc điểm của nhóm học phần bắt buộc là gì?,Nhóm,"gồm những học phần chứa đựng những nội dung kiến thức chính yếu của ngành đào tạo, bắt buộc sinh viên phải đăng ký học và tích lũy",0,0.0
+Nhóm học phần tự chọn chứa đựng những nội dung kiến thức nào?,những nội dung kiến thức cần thiết,chứa đựng những nội dung kiến thức cần thiết và sinh viên được tự chọn theo hướng chuyên môn,0,0.5384615384615384
+Các học phần tự chọn được sắp xếp như thế nào?,số các học phần tự chọn quy định cho mỗi ngành đào tạo.,có thể được xếp theo từng nhóm,0,0.0
+"Đối với các học phần tự chọn, yêu cầu đối sinh viên như thế nào?",nếu,phải tích lũy được một số học phần nhất định trong từng nhóm,0,0.0
+Em có thể nhờ ai để chọn học phần tự chọn,đăng ký học lại học phần đó hoặc chọn học phần khác,cố vấn học tập,0,0.125
+Ai là người hướng dẫn sinh viên lựa chọn học phần?,cố vấn học tập.,cố vấn học tập,0,0.75
+Cố vấn học tập có vai trò gì?,Nhiệm,Sinh viên chọn lựa những học phần này theo hướng dẫn,0,0.0
+ĐHQG là gì?,"""Đại học Quốc gia TP.Hồ Chí Minh"".","viết tắt của ""Đại học Quốc gia TP.Hồ Chí Minh""",0,0.7058823529411764
+"Em đi trên hành lang trường thì thấy bảng tên đề ĐHQG, không hiểu có nghĩa là gì?",đề nghị Trường cấp bảng điểm.,"viết tắt của ""Đại học Quốc gia TP.Hồ Chí Minh""",0,0.0
+Tiên tiến viết tắt là gì?,CTTT,Chương trình tiên tiến,0,0.0
+VPĐB?,"VPĐB là viết tắt của ""Văn phòng đặc biệt"".",Văn phòng đặc biệt,0,0.30769230769230765
+CLC và CTTT là gi?,"CLC là viết tắt của ""Chất lượng cao"".","CLC là viết tắt của ""Chất lượng cao"". CTTT là viết tắt của ""Chương trình tiên tiến""",0,0.6399999999999999
+CBPB có phải là viết tắt của từ Cân bằng phân biệt hay không?,"CBPB là viết tắt của ""Cán bộ phản biện""","CBPB là viết tắt của ""Cán bộ phản biện""",1,1.0
+PGS chắc là Phòng giám sát nhỉ?,"PGS là viết tắt của ""Phó giáo sư"".","PGS là viết tắt của ""Phó giáo sư"". ",0,1.0
+Ai là người chấm kết quả thực tập?,hội đồng,"3 người, bao gồm giảng viên hướng dẫn",0,0.0
+Khóa luận tốt nghiệp được chấm bởi giảng viên hướng dẫn hay là ai khác ạ?,"chủ tịch, ủy viên thư ký và ủy viên."," 3 người, bao gồm: chủ tịch, ủy viên thư ký và ủy viên",0,0.6363636363636364
+Kết quả thực do bao nhiêu người chấm?,"3 người,",3 người,0,0.5
+Giảng viên hướng dẫn có nằm trong thành phần chấm thực tập của em không?,bao gồm giảng viên hướng dẫn.,bao gồm giảng viên hướng dẫn,0,0.8333333333333334
+Thành phần của hội đồng chấm khóa luận tốt nghiệp?,"chủ tịch, ủy viên thư ký và ủy viên.","chủ tịch, ủy viên thư ký và ủy viên.",1,0.8888888888888888
+Cán bộ hướng dẫn có được chấm khóa luận tốt nghiệp không?,không,không được là thành viên hội đồng,0,0.25
+Điểm khóa luận của hội đồng.làm tròn đến đâu?,"0,5)","0,1",0,0.0
+Điểm tổng kết khóa luận tốt nghiệp được chấm như thế nào?,"trung bình cộng làm tròn đến 0,1 của các thành viên hội đồng","trung bình cộng (làm tròn đến 0,1) của: Điểm hệ số 1 của tất cả thành viên hội đồng (ngoại trừ người phản biện nếu người phản biện có trong hội đồng), Điểm hệ số 2 của người hướng dẫn và người phản biện",0,0.3508771929824561
+Khi nào có kết quả chấm thực tập?,"sau mỗi buổi bảo vệ, mỗi buổi báo cáo.","sau mỗi buổi bảo vệ, mỗi buổi báo cáo",0,0.6666666666666666
+Khi nao công bố điểm thực tập?,"Sau khi tốt nghiệp,","công bố sau mỗi buổi bảo vệ, mỗi buổi báo cáo.",0,0.0
+Điểm bảo lưu được định nghĩa như thế nào?,có quyết định chấp thuận của Hiệu trưởng.,Sinh viên đã thi đạt yêu cầu một học phần ở một CSĐT bậc Đại học khác trong thời gian không quá 5 năm nếu muốn xin miễn học phần đó,0,0.0
+Thời gian bảo lưu tối đa là bao lâu?,01 năm.,5 năm,0,0.0
+Muốn bảo lưu cần phải làm gì?,Thí,"phải làm đơn kèm theo xác nhận (số tiết học, số tín chỉ và điểm) gửi về P. ĐTĐH của Trường trong vòng 1 tháng sau khi bắt đầu học kỳ",0,0.0
+Cần gửi đơn xin bảo lưu trong khoảng thời gian nào?,15 ngày kể từ ngày gọi nhập học,1 tháng sau khi bắt đầu học kỳ,0,0.125
+Đơn xin bảo lưu điểm phải nộp cho ai?,P. ĐTĐH của Trường,P. ĐTĐH của Trường,1,1.0
+"Sau khi nộp đơn xin bảo lưu điểm, em có bị bắt phải nộp thêm giấy tờ chứng minh nào khác không?",có,cung cấp đề cương chi tiết của học phần có xác nhận của nơi sinh viên đã học,0,0.10526315789473684
+Yêu cầu thêm sau khi nộp đơn bảo lưu?,có quyết định chấp thuận của Hiệu trưởng.,có thể yêu cầu sinh viên cung cấp đề cương chi tiết của học phần có xác nhận của nơi sinh viên đã học,0,0.125
+Cần chuẩn bị giấy tờ gì khi xin bảo lưu điểm?,Thí sinh trúng tuyển,cung cấp đề cương chi tiết của học phần có xác nhận của nơi sinh viên đã học,0,0.0909090909090909
+Nếu được chấp thuận thì sao?,học,học phần đó sẽ được điểm mà sinh viên đã đạt và kèm theo chữ bảo lưu (BL),0,0.10526315789473684
+Điểm nếu đơn xin bảo lưu được chấp thuận thì sao?,có quyết định chấp thuận của Hiệu trưởng.,học phần đó sẽ được điểm mà sinh viên đã đạt và kèm theo chữ bảo lưu (BL),0,0.0
+Sinh viên chương trình đại trà có được chuyển ngành/chương trình hay không?,được,Sinh viên chương trình đại trà được xem xét chuyển ngành/chương trình nếu có đủ các điều kiện ,0,0.10526315789473684
+"Trong số các điều kiện để sinh viên chương trình đại trà được xem xét chuyển ngành/chương trình, sinh viên phải có ĐTBCTL là bao nhiêu?","6,5 trở lên,","từ  6,5 trở lên",0,0.5714285714285715
+Sinh viên muốn chuyển ngành phải nhận được sự chấp thuận của ai?,"Hiệu trưởng trường xin chuyển đi và Hiệu trưởng trường tiếp nhận,",Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo (nơi chuyển đến) và Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo (nơi chuyển đi).,0,0.10810810810810811
+Phải nhận được sự chấp thuận của ai thì xem xét chuyển ngành?,Hiệu trưởng,Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo (nơi chuyển đến) và Trưởng khoa/Trưởng bộ môn quản lý ngành đào tạo (nơi chuyển đi).,0,0.0
+Sinh viên chương trình chất lượng cao muốn chuyển nghành thì sao?,hành.,thực hiện theo các quy định riêng (nếu có),0,0.0
+Sinh viên  tiên tiến muốn chuyển ngành phải làm gì?,phải có hồ sơ xin chuyển trường,thực hiện theo các quy định riêng (nếu có),0,0.0
+Quy định việc chuyển chương trình với sinh viên không thuộc chương trình đại trà?,"sinh viên chương trình chất lượng cao,",thực hiện theo các quy định riêng (nếu có),0,0.0
+Số tín chỉ được phép khi học lại?,14 ≤ n ≤ 24.,không được vượt quá 12 tín chỉ,0,0.0
+Đăng kí cải thiện thì được nhiêu chỉ?,Tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào,không được vượt quá 12 tín chỉ,0,0.2
+Ai có thể đăng kí học vượt?,"sinh viên có ĐTBCTL ≥ 7,0","các sinh viên có ĐTBCTL ≥ 7,0 đến thời điểm đăng ký",0,0.6666666666666666
+Điều kiện nào để sinh viên được đăng ký học vượt ?,"sinh viên có ĐTBCTL ≥ 7,0","có ĐTBCTL ≥ 7,0 đến thời điểm đăng ký",0,0.5333333333333333
+Sinh viên có ĐTBCTL là bao nhiêu mới được đăng ký học vượt ?,"7,0","≥ 7,0",0,0.6666666666666666
+Sinh viên có được đăng ký các học phần mới (ngoại trừ Thực tập doanh nghiệp) trong học kỳ hè (học vượt) hay không?,"có ĐTBCTL ≥ 7,0","chỉ dành cho các sinh viên có ĐTBCTL ≥ 7,0 đến thời điểm đăng ký",0,0.4210526315789474
+Trong trường hợp đặc biệt thì sinh viên có thể hỏi ai?,Phòng Kế hoạch – Tài chính,Hiệu trưởng,0,0.0
+Ai là người giải quyết trường hợp đặc biệt khi đăng kí học vượt ?,Hiệu trưởng.,Hiệu trưởng,0,0.5
+Sinh viên được đăng ký vượt quá số tín chỉ tối đa hoặc ít hơn số tín chỉ tối thiểu hay không?,không,phải được sự đồng ý của Hiệu trưởng,0,0.0
+Cần phải có sự đồng ý của Hiệu trưởng trong trường hợp nào?,Hội đồng xét tốt nghiệp,Trong trường hợp đặc biệt sinh viên muốn đăng ký vượt quá số tín chỉ tối đa hoặc ít hơn số tín chỉ tối thiểu,0,0.0
+Thế nào là một học kỳ?,sinh viên hoàn thành một số học phần của chương trình đào tạo.,thời gian để sinh viên hoàn thành một số học phần của chương trình đào tạo,0,0.8275862068965517
+Định nghĩa học kỳ?,kết quả học tập chỉ được đăng ký học tối đa 14 tín chỉ,thời gian để sinh viên hoàn thành một số học phần của chương trình đào tạo,0,0.06666666666666667
+Học kỳ là gì?,Điểm trung bình học kỳ (ĐTBHK),thời gian để sinh viên hoàn thành một số học phần của chương trình đào tạo,0,0.09090909090909091
+Một học kỳ chính diễn ra thế nào?,Một học kỳ chính có 15 tuần thực học và 2 đến 3 tuần,"có 15 tuần thực học và 2 đến 3 tuần dành cho đánh giá hoạt động đào tạo (thi cuối kỳ, thi giữa kỳ, kiểm tra,…)",0,0.45
+Một học kỳ chính có bao nhiêu tuần thực học?,15,15 tuần,0,0.6666666666666666
+Đánh giá hoạt động đào tạo trong một học kỳ diễn ra trong bao nhiêu tuần?,2 đến 3 tuần,2 đến 3 tuần ,0,1.0
+Đánh giá hoạt động đào tạo bao gồm những hoạt động nào?,viên.,"thi cuối kỳ, thi giữa kỳ, kiểm tra",0,0.0
+Một học kỳ hè có bao nhiêu tuần thực học?,5,tối thiểu 5 tuần ,0,0.4
+Một học kỳ hè diễn ra trong bao lâu?,vụ.,tối thiểu 5 tuần thực học và 1 tuần thi,0,0.0
+Thời gian trong một học kỳ chính được phân bổ như thế nào?,Một,15 tuần thực học và 2 đến 3 tuần dành cho đánh giá hoạt động đào tạo,0,0.0
+Nếu không trực tiếp nhận bằng thì sao?,Phải có giấy ủy quyền theo quy định của pháp luật,Phải có giấy ủy quyền theo quy định của pháp luật,1,1.0
+Có thể thay mặt người khác đến nhận văn bằng được không?,không,"Phải có giấy ủy quyền theo quy định của pháp luật khi không trực tiếp đến nhận văn bằng, chứng chỉ",0,0.0909090909090909
+"Khi ủy thác người thân hay bạn bè hay ai đó đến nhận chứng chỉ hộ, thì có cần thông qua thủ tục gì hay không?",có,"Phải có giấy ủy quyền theo quy định của pháp luật khi không trực tiếp đến nhận văn bằng, chứng chỉ",0,0.0909090909090909
+"Khi bị mất văn bằng, tôi phải làm gì?",nhất,"Trình báo cho cơ quan cấp văn bằng, chứng chỉ và cơ quan công an",0,0.0
+"Văn bằng của tôi bị mất, tôi nên làm gì?",nhất,"Trình báo cho cơ quan cấp văn bằng, chứng chỉ và cơ quan công an",0,0.0
+"Em mới nhận được quyết định thu hồi lại văn bằng, em phải nộp lại ở đâu?","cơ quan có thẩm quyền thu hồi văn bằng, chứng chỉ","cho cơ quan có thẩm quyền thu hồi văn bằng, chứng chỉ",0,0.9565217391304348
+Thời hạn để tôi nộp lại văn bằng là bao lâu?,"30 ngày,","trong thời hạn 30 ngày, kể từ ngày nhận được Quyết định thu hồi văn bằng, chứng chỉ",0,0.19999999999999998
+Em xin ra khỏi chương trình tài năng thì làm gì?,hoàn trả lại toàn bộ số tiền học bổng đã nhận,trách nhiệm hoàn trả lại toàn bộ số tiền học bổng đã nhận,0,0.9166666666666666
+Có thể xin ra khỏi chương trình tài năng không?,có,được phép làm  đơn ,0,0.0
+Từ lớp tài năng muốn trở về lớp đại trà thì phải làm sao?,làm  đơn,làm  đơn xin ra khỏi chương trình,0,0.4444444444444445
+Lớp đại trà có nhận sinh viên trở về từ chương trình tài năng không?,có,được phép làm  đơn xin ra khỏi chương trình,0,0.0
+Nếu sinh viên xin ra khỏi hệ tài năng phải có trách nhiệm gì?,hoàn trả lại toàn bộ số tiền học bổng đã nhận,hoàn trả lại toàn bộ số tiền học bổng đã nhận,1,1.0
+Muốn xin rút khỏi chương trình tài năng nhưng tiền học bổng thì có được giữ lại không?,có,hoàn trả lại toàn bộ,0,0.0
+Xin rút khỏi chương trình tài năng có điều kiện gì không?,Sinh viên có,Nếu sinh viên xin ra khỏi hệ tài năng phải có trách nhiệm hoàn trả lại toàn bộ số tiền học bổng đã nhận,0,0.14814814814814814
+Mất gì khi ra khỏi hệ tài năng?,hoàn trả lại toàn bộ số tiền học bổng đã nhận,hoàn trả lại toàn bộ số tiền học bổng đã nhận,1,1.0
+Có được giữ lại tiền học bổng sau khi được xét duyệt xin rút khỏi chương trình tài năng không?,có,hoàn trả lại toàn bộ,0,0.0
+Khi làm đơn rút khỏi chương trình tài năng phải cam kết trả lại bao nhiêu tiền học bổng?,toàn bộ số tiền học bổng đã nhận,toàn bộ,0,0.4
+Tiền học bổng bị đòi lại toàn bộ hay chỉ đòi số tiền còn lại khi chuyển từ chương trình tài năng sang hệ đại trà?,toàn bộ,hoàn trả lại toàn bộ,0,0.5714285714285715
+Em có được lấy bảng điểm trong quá trình học tập không?,đề nghị Trường cấp bảng điểm.,có thể đề nghị Trường,0,0.5454545454545454
+Em muốn lấy bảng điểm trong thời gian học luôn thì có được không ạ?,đề nghị Trường,có thể đề nghị Trường,0,0.7499999999999999
+Lấy bảng điểm có mất chi phí gì hay không?,nghiệp.,nộp lệ phí theo quy định của Trường,0,0.0
+"Nếu muốn được cấp bảng điểm, em có cần phải tốn tiền không?",đề nghị Trường cấp bảng điểm.,nộp lệ phí theo quy định của Trường,0,0.14285714285714288
+Làm thế nào để được cấp bảng điểm trong quá trình học tập?,đăng ký và nộp lệ phí,đăng ký và nộp lệ phí theo quy định của Trường,0,0.7058823529411764
+Khi đề nghị Trường cấp bảng điểm trong quá trình học tập thì em phải làm những thủ tục gì?,sinh viên phải đăng ký và nộp lệ phí,đăng ký và nộp lệ phí theo quy định của Trường,0,0.6
+Khi nào sinh viên được cấp bảng điểm mà không cần đăng kí?,"Sau khi tốt nghiệp,",Sau khi tốt nghiệp,0,0.75
+"Muốn được cấp bảng điểm trong quá trình học thì phải đóng lệ phí, có đúng không ạ?",đề nghị Trường cấp bảng điểm.,nộp lệ phí theo quy định của Trường,0,0.14285714285714288
+Có cách nào để có bảng điểm mà không tốn tiền hay không?,đề nghị Trường cấp bảng điểm.,Sau khi tốt nghiệp,0,0.0
+Bảng điểm được cấp kèm theo cái gì khi ra trường?,bằng tốt nghiệp.,bằng tốt nghiệp,0,0.6666666666666666
+Bảng điểm được cấp miễn phí khi nào?,"Sau khi tốt nghiệp,",Sau khi tốt nghiệp,0,0.75
+Trọng số trong ĐTBHK được hiểu như thế nào?,số tín chỉ của mỗi môn học tương ứng.,trọng số là số tín chỉ của mỗi môn học tương ứng,0,0.761904761904762
+Ý nghĩa của ĐTBHK?,Việc đánh giá kết quả và điều kiện cấp chứng chỉ,"để xét học bổng, khen thưởng, xử lý học vụ sau mỗi học kỳ.",0,0.0
+Mục đích chính của ĐTBHK?,ĐTBCTL.,"để xét học bổng, khen thưởng, xử lý học vụ sau mỗi học kỳ",0,0.0
+ĐTBHK được sử dụng để làm gì?,đánh giá kết quả và điều kiện cấp chứng chỉ,"để xét học bổng, khen thưởng, xử lý học vụ sau mỗi học kỳ",0,0.0
+Cơ sở chính để xét học bổng là gì vậy?,chương trình đào tạo của ĐHQG-HCM,ĐTBHK,0,0.0
+"Ngoài được dùng để xét học bổng, khen thưởng thì ĐTBHK còn có chức năng nào?",xử lý học vụ sau mỗi học kỳ.,xử lý học vụ sau mỗi học kỳ,0,0.75
+Kết quả học tập của học kỳ hè được ghi nhận thế nào?,tính,tính chung vào học kỳ liền kề trước đó,0,0.19999999999999998
+Điểm của học kỳ hè được tính như thế nào?,đó.,tính chung vào học kỳ liền kề trước đó,0,0.0
+Số tín chỉ đăng ký trong mỗi học kỳ chính thỏa điều kiện nào?,14 ≤ n ≤ 24.,thỏa điều kiện 14 ≤ n ≤ 24,0,0.4615384615384615
+Điều kiện đối với số tín chỉ đăng ký?,14 ≤ n ≤ 24.,thỏa điều kiện 14 ≤ n ≤ 24,0,0.4615384615384615
+Số tín chỉ đăng ký học tối thiểu trong mỗi học kỳ chính?,n,14,0,0.0
+"Trong mỗi học kỳ chính, có thể đăng ký số tín chỉ tối đa là bao nhiêu?",30,24,0,0.0
+Với điều kiện nào thì sinh viên được phép đăng ký tối đa 30 tín chỉ?,"có ĐTBCTL ≥ 8,0","có ĐTBCTL ≥ 8,0 đến thời điểm đăng ký",0,0.6153846153846153
+Có sinh viên nào được đăng ký số lượng tín chỉ vượt quá 24 tín chỉ không?,≥,"có ĐTBCTL ≥ 8,0 đến thời điểm đăng ký",0,0.19999999999999998
+"Số tín chỉ tối đa sinh viên có điểm lớn hơn 8,0 được đăng kí?",12 tín chỉ.,30 tín chỉ,0,0.3333333333333333
+Nếu em chỉ còn ít hơn số tín chỉ tối thiểu phải học thì sao?,không áp dụng quy định số tín chỉ tối thiểu.,không áp dụng quy định,0,0.6666666666666666
+Quy định số tín chỉ tối thiểu không được áp dụng với đối tượng nào?,Đối với những sinh viên còn phải học ít hơn 14 tín chỉ,sinh viên còn phải học ít hơn 14 tín chỉ,0,0.8695652173913044
+Việc chuyển đổi và công nhận tín chỉ được thực hiện theo quy định nào?,ĐHQG-HCM và các đơn vị đối tác.,quy định tại Điều 28 của Quy chế này,0,0.0
+Điều 28 của Quy chế này quy định điều gì?,Sinh viên phải,Việc chuyển đổi và công nhận tín chỉ,0,0.0
+"Nếu đăng ký học tại trường thì đầu mỗi học kỳ, sinh viên phải làm gì?",Trường.,"phải tìm hiểu, nghiên cứu để nắm được chương trình giáo dục, các học phần được mở trong học kỳ và đăng ký các học phần qua hệ thống đăng ký hoặc bằng phiếu đăng ký theo quy định của Trường",0,0.0
+Đăng ký học phần bằng cách nào?,hệ thống đăng ký hoặc bằng phiếu đăng ký,qua hệ thống đăng ký hoặc bằng phiếu đăng ký,0,0.7368421052631577
+Đăng ký học phần?,"tên học phần, mã học phần, số tín chỉ",đăng ký các học phần qua hệ thống đăng ký hoặc bằng phiếu đăng ký theo quy định của Trường,0,0.06896551724137932
+"Ngoài thông qua hệ thống đăng ký, còn cách nào để đăng ký học phần hay không?",bằng phiếu đăng ký,bằng phiếu đăng ký,1,1.0
+Sinh viên khóa tuyển mới học kỳ đầu tiên sẽ học như thế nào?,"học lần đầu được tính trọn gói trong học phí học kỳ,",theo thời khóa biểu được xếp sẵn theo kế hoạch giảng dạy,0,0.08333333333333333
+Thời khóa biểu được sắp xếp như thế nào với sinh viên khóa mới?,thức.,được xếp sẵn theo kế hoạch giảng dạy,0,0.0
+Thời khóa biểu được xếp sẵn theo kế hoạch giảng dạy được áp dụng cho đối tượng nào?,"sinh viên khóa tuyển mới,",sinh viên khóa tuyển mới,0,0.8000000000000002
+Thế nào là sinh viên chính quy?,Trường.,là các thí sinh trúng tuyển vào hệ chính quy và đã hoàn tất các thủ tục nhập học theo quy định của Trường,0,0.0
+Đối tượng tạo được gọi là sinh viên chính quy,các thí sinh trúng tuyển vào hệ chính quy,là các thí sinh trúng tuyển vào hệ chính quy và đã hoàn tất các thủ tục nhập học theo quy định của Trường,0,0.5454545454545454
+"Để trở thành sinh viên chính quy, cần phải thỏa mãn những yêu cầu nào?",hoàn tất các thủ tục nhập học theo quy định của Trường.,trúng tuyển vào hệ chính quy và đã hoàn tất các thủ tục nhập học theo quy định của Trường,0,0.6874999999999999
+Sinh viên chính quy có phải chỉ cần là các thí sinh trúng tuyển vào hệ chính quy hay không?,Sinh viên chính quy,hoàn tất các thủ tục nhập học theo quy định của Trường,0,0.125
+"Đối với sinh viên chính quy, Trường tổ chức đào tạo theo phương thức nào?",tập trung toàn thời gian cho sinh viên hệ chính quy.,chính quy tập trung toàn thời gian,0,0.6666666666666665
+Phương thức đào tạo áp dụng cho sinh viên chính quy?,phương thức chính quy tập trung toàn thời gian cho sinh viên hệ chính quy.,chính quy tập trung toàn thời gian,0,0.6363636363636364
+Phương thức chính quy tập trung toàn thời gian được áp dụng cho đối tượng nào?,Sinh viên chính quy,sinh viên hệ chính quy,0,0.6666666666666665
+Cơ quan nào quy định mỗi sinh viên hệ chính quy đều có một mã số riêng?,Trường.,Trường,0,0.0
+Mã số riêng theo quy định của Trường được cấp cho ai?,Mỗi sinh viên hệ chính quy,Mỗi sinh viên hệ chính quy,1,1.0
+Nghĩa vụ của sinh viên?,"Không hoàn thành nghĩa vụ học phí đúng quy định,",phải chấp hành quy chế hiện hành về công tác sinh viên của Trường ,0,0.08333333333333333
+Nghĩa vụ của sinh viên?,"Không hoàn thành nghĩa vụ học phí đúng quy định,",chấp hành quy chế hiện hành về công tác sinh viên của Trường ,0,0.08695652173913043
+Quyền lợi của sinh viên hệ chính quy?,Sinh viên phải,hưởng các chính sách dành cho sinh viên hệ chính quy,0,0.14285714285714288
+Chứng chỉ tiếng Anh nào được công nhận?,"TOEIC,","TOEIC, TOEFL ITP, TOEFL iBT, IELTS, Cambridge English (PET, FCE, CAE)",0,0.16666666666666669
+Một số chứng chỉ tiếng anh được công nhận bao gồm?,"TOEIC,","TOEIC, TOEFL ITP, TOEFL iBT, IELTS, Cambridge English (PET, FCE, CAE)",0,0.16666666666666669
+Kể tên cho tôi tất cả các loại chứng chỉ tiếng Anh được công nhận?,"TOEIC,","TOEIC, TOEFL ITP, TOEFL iBT, IELTS, Cambridge English (PET, FCE, CAE)",0,0.16666666666666669
+TOEIC có được nhận không?,không,được công nhận,0,0.0
+Không biết chứng chỉ PET có được công nhận ở Việt nam không?,Giữ,được công nhận ,0,0.0
+Việt Nam có công nhận chứng chỉ CAE không?,Giữ,được công nhận,0,0.0
+"Ngoài IELTS, TOEIC, TOEFL, em còn có thể thi những chứng chỉ nào nữa?","Cambridge English (PET, FCE, CAE),","TOEIC, TOEFL ITP, TOEFL iBT, IELTS, Cambridge English (PET, FCE, CAE)",0,0.5000000000000001
+"Ngoài IELTS, TOEIC, TOEFL, còn những chứng chỉ nào được công nhận nữa?","Cambridge English (PET, FCE, CAE),","TOEIC, TOEFL ITP, TOEFL iBT, IELTS, Cambridge English (PET, FCE, CAE)",0,0.5000000000000001
+Chứng chỉ anh văn trong trường đại học được ai công nhận?,ĐHQG-HCM,ĐHQG-HCM công nhận có giá trị sử dụng,0,0.2222222222222222
+Chứng chỉ tiếng Anh xài được trong bao lâu?,02 năm,02 năm,1,1.0
+Thời hạn có hiệu lực của 1 chứng chỉ tiếng anh?,trong vòng 02 năm kể từ ngày cấp tính đến ngày xét công nhận.,02 năm,0,0.25
+Khi nào thì chứng chỉ tiếng anh trường cấp cho em hết hạn?,02 năm,02 năm,1,1.0
+Học cùng lúc hai chương trình đào tạo được áp dụng đối với chương trình đào tạo nào?,"chương trình song ngành,",chương trình song ngành,0,0.75
+Đối tượng nào được học cùng lúc hai chương trình đào tạo?,"chương trình song ngành,",sinh viên có đủ điều kiện,0,0.0
+Sinh viên muốn đăng ký học thêm một chương trình thứ hai thì làm gì,khi tốt nghiệp được cấp hai văn bằng.,Học cùng lúc hai chương trình đào tạo,0,0.125
+Sinh viên nào có đủ điều kiệ học 2 chương trình?,đủ điều kiện tốt nghiệp ở chương trình đào tạo thứ nhất.,quy định tại Khoản 2 Điều 19,0,0.0
+Học chương trình nào thì được phép học cùng lúc hai chương trình đào tạo?,"chương trình song ngành,",chương trình song ngành,0,0.75
+Điều kiện tối thiểu để học ngành thứ 2?,Ngành,"Ngành đào tạo của chương trình đào tạo thứ hai phải khác ngành đào tạo của chương trình đào tạo thứ nhất, Không có sự khác biệt trong hình thức và trình độ đào tạo giữa hai chương trình đào tạo, Đã hoàn thành học kỳ 1 năm học đầu tiên của chương trình đào tạo thứ nhất và sinh viên thuộc diện xếp loại học lực trung bình khá trở lên",0,0.0273972602739726
+Khi nào sinh viên được học nghành thứ 2?,có đủ điều kiện tốt nghiệp ở chương trình đào tạo thứ nhất.,đồng thời thỏa mãn các điều kiện tối thiểu  ,0,0.18181818181818185
+Điều kiện tối thiểu để đăng ký học thêm một chương trình đào tạo thứ hai ?,lên.,"Ngành đào tạo của chương trình đào tạo thứ hai phải khác ngành đào tạo của chương trình đào tạo thứ nhất, Không có sự khác biệt trong hình thức và trình độ đào tạo giữa hai chương trình đào tạo, Đã hoàn thành học kỳ 1 năm học đầu tiên của chương trình đào tạo thứ nhất và sinh viên thuộc diện xếp loại học lực trung bình khá trở lên",0,0.0
+Ai có thể đăng kí học nghành thứ 2?,Sinh viên trình độ đại học đang học tại các CSĐT của ĐHQG-HCM,Sinh viên trình độ đại học đang học tại các CSĐT của ĐHQG-HCM,1,0.9230769230769231
+Tối thiểu xếp loại học lực như nào được đăng ký hai chương trình đào tạo?,trung bình khá trở lên.,xếp loại học lực trung bình khá trở lên,0,0.5714285714285714
+Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương trình?,"thời gian tối đa quy định cho chương trình thứ nhất,",thời gian tối đa quy định cho chương trình thứ nhất,0,0.9090909090909091
+Ở đâu quy định về thời gian tối đa sinh viên được học nghành thứ 2?,"Khoản 2, Điều 6",Điều 6 của Quy chế ,0,0.4444444444444445
+"Nếu học cùng lúc hai chương trình đào tạo, sinh viên được xét tốt nghiệp như thế nào?",có đủ điều kiện tốt nghiệp ở chương trình đào tạo thứ nhất.,xét tốt nghiệp chương trình đào tạo thứ hai,0,0.6363636363636364
+Sinh viên bị đình chỉ học tập 1 năm khi nào?,vi phạm lần đầu trong việc đi thi hộ hoặc nhờ người thi hộ.,vi phạm lần đầu trong việc đi thi hộ hoặc nhờ người thi hộ,0,0.8571428571428571
+nếu vi phạm lần đầu trong việc đi thi hộ thì sao?,Sinh viên bị đình chỉ học tập 1 năm học,bị đình chỉ học tập 1 năm học,0,0.7777777777777777
+Sinh viên bị đình chỉ học tập trong thời hạn bao lâu nếu vi phạm lần đầu trong việc thi hộ hoặc nhờ người thi hộ?,1 năm học,1 năm học ,0,1.0
+Sinh viên bị đình chỉ học tập 1 năm học nếu vi phạm lần thứ bao nhiêu trong việc đi thi hộ hoặc nhờ người thi hộ?,lần đầu,lần đầu,1,1.0
+Đình chỉ học tập nếu vi phạm lần đầu chỉ trong việc nhờ người thi hộ đúng không?,Sinh viên,hoặc nhờ người thi hộ,0,0.0
+Đình chỉ học tập có thời hạn áp dụng với đối tượng sinh viên nào?,sinh,đang trong thời gian bị cảnh báo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi sinh viên không được làm; sinh viên vi phạm pháp luật bị xử phạt tù nhưng cho hưởng án treo,0,0.047619047619047616
+Khi nào sinh viên bị đình chỉ học tập có thời hạn?,vi phạm lần đầu trong việc đi thi hộ hoặc nhờ người thi hộ.,đang trong thời gian bị cảnh báo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi sinh viên không được làm; sinh viên vi phạm pháp luật bị xử phạt tù nhưng cho hưởng án treo,0,0.14545454545454548
+Sinh viên đang trong thời gian bị cảnh báo mà vẫn vi phạm kỷ luật  thì bị xử lý thế nào?,Đình chỉ học tập có thời hạn:,Đình chỉ học tập có thời hạn,0,0.8571428571428571
+Chỉ có những sinh viên đang trong thời gian bị cảnh báo mà vẫn vi phạm kỷ luật thì mới bị đình chỉ học tập có thời hạn phải không?,không,vi phạm nghiêm trọng các hành vi sinh viên không được làm,0,0.15384615384615385
+Sinh viên vi phạm pháp luật bị xử lý thế nào?,bị xử phạt tù nhưng cho hưởng án treo.,bị xử phạt tù nhưng cho hưởng án treo,0,0.8888888888888888
+Hình thức xử phạt đối với sinh viên vi phạm pháp luật?,tù,bị xử phạt tù nhưng cho hưởng án treo,0,0.19999999999999998
+Sinh viên vi phạm pháp luật có bị xử phạt tù không?,bị xử phạt tù,bị xử phạt tù nhưng cho hưởng án treo,0,0.6153846153846153
+Bị xử phạt tù nhưng cho hưởng án treo là hình thức kỷ luật đối với đối tượng sinh viên nào?,sinh viên vi phạm pháp luật,vi phạm pháp luật,0,0.8
+Sinh viên có theo dõi kết quả đăng ký học phần tại đâu?,tạo.,P. ĐTĐH hoặc văn phòng khoa/bộ môn quản lý ngành đào tạo,0,0.0
+Bộ phận nào chịu trách nhiêm lưu giữ kết quả đăng ký học phần của sinh viên?,Sinh viên,P. ĐTĐH hoặc văn phòng khoa/bộ môn quản lý ngành đào tạo,0,0.0
+P. ĐTĐH hoặc văn phòng khoa/bộ môn quản lý ngành đào tạo là nơi sinh viên có trách nhiệm làm gì?,đăng ký chuyên ngành,theo dõi kết quả đăng ký học phần ,0,0.3333333333333333
+Sinh viên làm gì tại P. ĐTĐH hoặc văn phòng khoa/bộ môn quản lý ngành đào tạo?,báo cáo thực tập doanh nghiệp cuối mỗi học kỳ có mở môn thực tập.,theo dõi kết quả đăng ký học phần ,0,0.08695652173913045
+"Ngoài P. ĐTĐH, sinh viên có thể theo dõi kết quả đăng ký học phần ở bộ phận nào nữa?",văn phòng khoa/bộ môn quản lý ngành đào tạo.,văn phòng khoa/bộ môn quản lý ngành đào tạo,0,0.8888888888888888
+Kết quả đăng ký học phần của mỗi sinh viên được thông báo ở đâu?,website của Trường.,website của Trường,0,0.6666666666666666
+Website trường có vai trò gì?,Kế hoạch học tập,Kết quả đăng ký học phần của mỗi sinh viên được thông báo,0,0.11764705882352941
+Kết quả gì được thông báo trên website của Trường?,Kết quả đăng ký học phần của mỗi sinh viên,đăng ký học phần của mỗi sinh viên,0,0.888888888888889
+Kết quả đăng ký học phần thể hiện những gì?,phần.,"tên học phần, mã học phần, số tín chỉ của mỗi học phần, lịch học của các học phần",0,0.0
+"Ngoài tên học phần, mã học phần, số tín chỉ của mỗi học phần, kết quả đăng ký học phần còn thể hiện?",lịch học của các học phần.,lịch học của các học phần,0,0.6666666666666666
+"Tên học phần, mã học phần, số tín chỉ của mỗi học phần, lịch học của các học phần là những đối tượng phải có trong?",Kết quả đăng ký học phần,Kết quả đăng ký học phần ,0,1.0
+Trách nhiệm của sinh viên đối với học phần đã đăng ký?,thực hiện đầy đủ các yêu cầu của môn học,"thực hiện đầy đủ các yêu cầu của môn học như lên lớp, làm bài tập, thực hành, thí nghiệm, tham gia thảo luận, dự kiểm tra thường kỳ và thi kết thúc học phần",0,0.4444444444444445
+Các yêu cầu của môn học là gì?,học.,"lên lớp, làm bài tập, thực hành, thí nghiệm, tham gia thảo luận, dự kiểm tra thường kỳ và thi kết thúc học phần",0,0.0
+Sinh viên phải đăng ký học lại các học phần bắt buộc có điểm dưới bao nhiêu?,"5,0","5,0",1,1.0
+Điểm học phần dưới bao nhiêu thì sinh viên phải đăng ký học lại các học phần bắt buộc?,"5,0","5,0",1,1.0
+"Đối với các học phần bắt buộc, khi nào sinh viên phải đăng ký học lại?","điểm học phần dưới 5,0  ở các học kỳ trước.","có điểm học phần dưới 5,0  ở các học kỳ trước",0,0.761904761904762
+"Đối với các học phần tự chọn, nếu điểm dưới 5 thì có cần học lại?","điểm dưới 5,0 sinh viên được phép đăng ký học lại",được phép đăng ký học lại học phần đó hoặc chọn học phần khác thay thế trong số các học phần tự chọn quy định cho mỗi ngành đào tạo,0,0.29268292682926833
+"Đối với các học phần tự chọn, sinh viên có bị bắt buộc phải đăng ký học lại nếu điểm dưới 5,0 không?","nếu điểm dưới 5,0",được phép đăng ký học lại học phần đó hoặc chọn học phần khác thay thế trong số các học phần tự chọn quy định cho mỗi ngành đào tạo,0,0.0
+"Đối với các học phần tự chọn, nếu điểm dưới 5,0 thì sinh viên có những sự lựa chọn nào?",đăng ký học lại học phần đó hoặc chọn học phần khác,đăng ký học lại học phần đó hoặc chọn học phần khác thay thế trong số các học phần tự chọn quy định cho mỗi ngành đào tạo,0,0.45000000000000007
+"Có bắt buộc phải đăng ký học lại học phần đối với học phần tự chọn khi điểm dưới 5,0 không?","nếu điểm dưới 5,0 sinh viên được phép đăng ký học",đăng ký học lại học phần đó hoặc chọn học phần khác thay thế trong số các học phần tự chọn quy định cho mỗi ngành đào tạo,0,0.15384615384615383
+Nếu chọn đăng ký học phần tự chọn khác để thay thế thì phải làm thủ tục thế nào?,làm,làm đơn xin hủy học phần tự chọn,0,0.2222222222222222
+Cần phải làm gì trong trường hợp đăng ký học phần tự chọn khác để thay thế thay vì đăng ký học lại học phần đó?,nghiệp,làm đơn xin hủy học phần tự chọn ,0,0.0
+Sinh viên phải làm đơn xin hủy học phần tự chọn thi không đạt khi nào?,nộp hồ sơ xét tốt nghiệp,đăng ký học phần tự chọn khác để thay thế,0,0.0
+Sinh viên phải làm đơn xin hủy học phần tự chọn thi không đạt vào lúc nào?,nộp hồ sơ xét tốt nghiệp,nộp hồ sơ xét tốt nghiệp ,0,1.0
+Vì sao đơn xin hủy học phần tự chọn thi không đạt phải chờ đến lúc nộp hồ sơ xét tốt nghiệp mới được làm?,sinh viên đăng ký học phần tự chọn khác để thay thế,sinh viên không được hủy kết quả học tập trong lúc đang học,0,0.24000000000000002
+Có được nộp đơn xin hủy học phần tự chọn thi không đạt khi đang trong quá trình học tập không?,không,sinh viên không được hủy kết quả học tập trong lúc đang học,0,0.14285714285714288
+Đơn vị dùng để lượng hóa chi phí của các hoạt hoạt động giảng dạy tính cho từng học phần gọi là gì?,Tín chỉ học phí,Tín chỉ học phí (TCHP),0,0.888888888888889
+Thế nào là tín chỉ học phí (TCHP) ?,phần.,đơn vị dùng để lượng hóa chi phí của các hoạt động giảng dạy tính cho từng học phần,0,0.0
+Số TCHP của mỗi học phần được xác định như thế nào?,căn cứ vào đề cương và cách thức tổ chức học phần;,căn cứ vào đề cương và cách thức tổ chức học phần,0,0.9166666666666666
+Phần giảng dạy lý thuyết tại lớp tương đương với bao nhiêu TCHP?,1,1 TCHP,0,0.6666666666666666
+Những phần nào thì tương đương với 1 TCHP?,"Phần giảng dạy thực hành, thí nghiệm, thảo luận:","Phần giảng dạy lý thuyết tại lớp: 15 tiết tương đương với 1 TCHP. Phần giảng dạy thực hành, thí nghiệm, thảo luận: 15 tiết tương đương với 1 TCHP",0,0.4615384615384615
+Học phần nào được xác định số TCHP riêng?,"học phần Giáo dục quốc phòng-An ninh,","học phần Giáo dục quốc phòng-An ninh, Giáo dục thể chất, Thực tập doanh nghiệp, Khóa luận tốt nghiệp, Môn học đồ án bao gồm chuyên đề nghiên cứu khoa học, seminar,… ",0,0.358974358974359
+Giáo dục thể chất được tính bao nhiêu TCHP?,1,được xác định số TCHP riêng,0,0.0
+Ai là người ban hành số TCHP cho các học phần đặc biệt?,Hiệu trưởng,Hiệu trưởng ,0,1.0
+Có bao nhiêu loại TCHP?,3 loại,3 loại ,0,1.0
+Thế nào là THCP học lại?,"điểm học phần dưới 5,0  ở các học kỳ trước.",tín chỉ học phí của học phần học lại,0,0.2105263157894737
+TPHP học cải thiện là gì?,"những học phần có điểm từ 5,0 đến 5,4,",tín chỉ học phí của học phần học cải thiện,0,0.2105263157894737
+Trường sẽ công bố mức học phí cho mỗi loại TCHP khi nào?,"Đầu năm học,",Đầu năm học,0,0.6666666666666666
+Mức học phí cho được công bố vào thời điểm nào?,TCHPCT:,Đầu năm học,0,0.0
+"Đối với học kỳ chính, học phí mỗi học kỳ chính của sinh viên đang học tại Trường được xác định theo công thức nào?","∑TCHPHL + HPTCCT × ∑TCHPCT""",Học phí = HPHK + HPTCHL × ∑TCHPHL + HPTCCT × ∑TCHPCT,0,0.47058823529411764
+Công thức xác đính học phí mỗi học kỳ chính của sinh viên đang học tại trường?,HPHK + HPTCHL × ∑TCHPHL,Học phí = HPHK + HPTCHL × ∑TCHPHL + HPTCCT × ∑TCHPCT,0,0.5882352941176471
+"Trong công thức xác định học phí mỗi học kỳ chính của sinh viên đang học tại Trường, HPHK nghĩa là gì?","học phí học kỳ,",học phí học kỳ,0,0.5
+"Trong công thức xác định học phí mỗi học kỳ chính của sinh viên đang học tại Trường, HPTCHL nghĩa là gì?","mức học phí cho loại tín chỉ học phí học lại,",mức học phí cho loại tín chỉ học phí học lại,0,0.6363636363636364
+"Trong công thức tính học phí mỗi học kỳ chính của sinh viên đang học tại Trường, HPTCCT nghĩa là gì?","mức học phí cho loại tín chỉ học phí học cải thiện,",mức học phí cho loại tín chỉ học phí học cải thiện,0,0.6666666666666666
+"Trong công thức tính học phí mỗi học kỳ chính của sinh viên đang học tại Trường, TCHPCT nghĩa là gì?",số lượng tín chỉ học phí của môn học cải thiện.,số lượng tín chỉ học phí của môn học cải thiện,0,0.8181818181818182
+HPHK là gì trong công thức tính học phí mỗi học kỳ chính của sinh viên đang theo học tại Trường?,"học phí học kỳ,",học phí học kỳ,0,0.5
+HPTCHL nghĩa là gì trong công thức tính học phí mỗi học kỳ chính của sinh viên đang học tại Trường?,"mức học phí cho loại tín chỉ học phí học lại,",mức học phí cho loại tín chỉ học phí học lại,0,0.6363636363636364
+TCHPHL là gì trong công thức xác định học phí mỗi học kỳ chính của sinh viên đang học tại trường?,"số lượng tín chỉ học phí của môn học lại,",số lượng tín chỉ học phí của môn học lại,0,0.8000000000000002
+HPTCCT là gì trong công thức xác định học phí mỗi học kỳ chính của sinh viên đang học tại trường?,"mức học phí cho loại tín chỉ học phí học cải thiện,",mức học phí cho loại tín chỉ học phí học cải thiện,0,0.6666666666666666
+TCHPCT là gì?,số lượng tín chỉ học phí của môn học cải thiện.,số lượng tín chỉ học phí của môn học cải thiện,0,0.8181818181818182
+Làm sao để tính học phí mỗi học kỳ chính?,HPHK,"Học phí = HPHK + HPTCHL × ∑TCHPHL + HPTCCT × ∑TCHPCT""",0,0.15384615384615385
+Mức học phí mỗi học kỳ chính của sinh viên?,HPHK,"""Học phí = HPHK + HPTCHL × ∑TCHPHL + HPTCCT × ∑TCHPCT"" ",0,0.15384615384615385
+Khi nào được miễn học anh văn?,"học kỳ thứ 2 của khóa học,",Sinh viên có một trong các chứng chỉ tiếng Anh đạt trình độ quy định,0,0.0
+Làm thế nào để biết em có được miễn học tiếng anh hay không?,sinh,Sinh viên có một trong các chứng chỉ tiếng Anh đạt trình độ quy định,0,0.0
+Không cần học anh văn trong trường có được không?,không,Sinh viên có một trong các chứng chỉ tiếng Anh đạt trình độ quy định,0,0.0
+Trường có chế độ miễn học anh văn không?,không,xét miễn học các môn học tiếng Anh,0,0.0
+Chứng chỉ tiếng anh nào thì được miễn anh văn 2?,Anh văn 1,"TOEIC[450],TOEFL_iBT[37],IELTS[4.5],VNU[151-175]",0,0.0
+TOEIC 500 được miễn anh văn nào?,3,Anh văn 3,0,0.5
+"Em IELTS 8.0 nhưng bằng hết hạn từ tháng 8 năm ngoái, có thể xin được miễn học anh văn không?",không,phải còn hiệu lực tính đến ngày xét công nhận,0,0.0
+IELTS bao nhiêu chấm thì được miễn học anh văn 3?,ĐTĐH.,IELTS[5.0],0,0.0
+IELTS 5.5 có được miễn học anh văn 2 không?,không,IELTS[5.0],0,0.0
+IELTS 5.5 được miễn học anh văn nào?,Anh văn 3,Anh văn 2,0,0.6666666666666666
+"Khi đã thỏa mãn các yêu cầu về chứng chỉ tiếng anh, làm thủ tục xin miễn học anh văn thế nào?",nộp đơn theo mẫu (phụ lục đính kèm),"nộp đơn theo mẫu (phụ lục đính kèm) kèm theo bản sao và mang theo bản gốc của chứng chỉ để kiểm tra, đối chiếu cho Phòng ĐTĐH",0,0.4444444444444445
+Khi nào xét miễn anh văn,"Hai tuần trước khi bắt đầu học kỳ,",Hai tuần trước khi bắt đầu học kỳ,0,0.875
+"Khi xin miễn học anh văn, phải làm đơn thế nào và nộp ở đâu?",nộp,"Hai tuần trước khi bắt đầu học kỳ, sinh viên thỏa mãn các điều kiện về miễn học tại Khoản 1 điều này nộp đơn theo mẫu (phụ lục đính kèm) kèm theo bản sao và mang theo bản gốc của chứng chỉ để kiểm tra, đối chiếu cho Phòng ĐTĐH. ",0,0.038461538461538464
+Vì sao em đã đủ điều kiện xin xét miễn học anh văn mà đơn của em vẫn không được duyệt?,các chứng chỉ tiếng Anh đạt trình độ quy định,"Sau học kỳ thứ 2 của khóa học, sinh viên không được xem xét miễn học các môn học tiếng Anh",0,0.19354838709677416
+Sinh viên bị cảnh báo học vụ khi nào?,vi,"Không hoàn thành nghĩa vụ học phí đúng quy định, có ĐTBHK đang xét dưới 3,0 hoặc điểm trung bình của liên tiếp 2 học kỳ gần nhất đều dưới 4,0",0,0.0
+Vi phạm những trường hợp nào thì sinh viên bị cảnh báo học vụ?,vi phạm lần đầu trong việc đi thi hộ hoặc nhờ người thi hộ.,"Không hoàn thành nghĩa vụ học phí đúng quy định, có ĐTBHK đang xét dưới 3,0 hoặc điểm trung bình của liên tiếp 2 học kỳ gần nhất đều dưới 4,0.",0,0.044444444444444446
+Nếu sinh viên không hoàn thành nghĩa vụ học phí đúng quy định thì sao?,xin gia hạn đóng học phí và nộp về Phòng Kế hoạch – Tài chính,cảnh báo học vụ,0,0.10526315789473685
+Sinh viên vi phạm bao nhiêu lần thì bị cảnh cáo?,1 năm học nếu vi phạm lần đầu,một,0,0.0
+Có ĐTBHK đang xét dưới bao nhiêu điểm thì sinh viên bị cảnh báo học vụ?,"3,0","dưới 3,0 ",0,0.6666666666666666
+"Điểm trung bình của liên tiếp bao nhiêu học kỳ gần nhất dưới 4,0 thì sinh viên bị cảnh báo học vụ?",2,2 học kỳ,0,0.5
+Sinh viên không hoàn thành nghĩa vụ học phí đúng quy định thì có bị cảnh báo học vụ không?,"dưới 3,0",bị cảnh báo học vụ,0,0.0
+Thời hạn cảnh báo học vụ kéo dài trong bao lâu?,một học kỳ chính tiếp theo.,trong một học kỳ chính tiếp theo,0,0.7692307692307692
+Sinh viên bị cảnh báo học vụ cho đến khi nào?,một học kỳ chính tiếp theo.,trong một học kỳ chính tiếp theo,0,0.7692307692307692
+Khi kết thúc thời hạn cảnh báo học vụ thì chuyện gì xảy ra?,Sinh viên sẽ được tự động xóa hình thức xử lý,Sinh viên sẽ được tự động xóa hình thức xử lý ,0,1.0
+Sinh viên sẽ được tự động xóa hình thức xử lý khi nào?,kết thúc thời hạn.,khi kết thúc thời hạn,0,0.6666666666666665
+Sinh viên bị cảnh báo học vụ vì kết quả học tập chỉ được đăng ký học tối đa bao nhiêu tín chỉ trong học kỳ đó?,14,14 ,0,1.0
+Số tín chỉ tối đa sinh viên được đăng ký học trong học kỳ đó nếu bị cảnh báo học vụ vì kết quả học tập?,14,14 ,0,1.0
+Trong trường hợp nào sinh viên chỉ được đăng ký học tối đa 14 tín chỉ trong 1 học kỳ?,"phải học ít hơn 14 tín chỉ theo chương trình đào tạo của ngành,",Sinh viên bị cảnh báo học vụ vì kết quả học tập ,0,0.07692307692307691
+Giấy chứng nhận kết quả môn học được lấy ở đâu?,Trường,Trường,1,1.0
+Khi nào thì em được nhận giấy chứng nhận kết quả môn học?,hoàn tất quá trình học tập theo quy định.,hoàn tất quá trình học tập theo quy định,0,0.8888888888888888
+Giấy chứng nhận sẽ đến tay em khi nào?,"không trực tiếp đến nhận văn bằng, chứng chỉ.",hoàn tất quá trình học tập theo quy định,0,0.0
+"Vì sao em vẫn chưa có giấy chứng nhận kết quả môn học, khi nào thì em mới được nhận?",không đủ điều kiện cấp bằng tốt nghiệp,khi hoàn tất quá trình học tập theo quy định,0,0.0
+Việc công nhận và chuyển đổi tín chỉ đối với đào tạo văn bằng 2 và liên thông được thực hiện theo nguyên tắc nào?,sau:,"những môn học đã tích lũy có  từ 80% trở lên nội dung tương đương với nội dung môn học trong chương trình đào tạo, căn cứ chương trình môn học và kết quả trên bảng điểm học tập của sinh viên",0,0.0
+"Em đang dự định chuyển đổi tín chỉ đối với đào tạo văn bằng 2 và liên thông, em muốn biết cách thức cũng như nguyên tắc chuyển đổi?",nguyên tắc sau:,"được công nhận và chuyển đổi tín chỉ đối với những môn học đã tích lũy có  từ 80% trở lên nội dung tương đương với nội dung môn học trong chương trình đào tạo, căn cứ chương trình môn học và kết quả trên bảng điểm học tập của sinh viên, Hiệu trưởng quyết định việc công nhận kết quả học tập, khối lượng kiến thức và các môn học cần phải bổ sung. ",0,0.0
+"Em dự định chuyển đổi tín chỉ, em có một thắc mắc là đối với những môn học nào thì em được phép chuyển đổi tín chỉ?",những,"đã tích lũy có  từ 80% trở lên nội dung tương đương với nội dung môn học trong chương trình đào tạo, căn cứ chương trình môn học và kết quả trên bảng điểm học tập của sinh viên",0,0.0
+Kết quả học tập và các môn học cần phải bổ sung khi chuyển đổi tín chỉ do ai quyết định?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Nguyên tắc của việc công nhận và chuyển đổi tín chỉ?,Sinh,"Kết quả đối sánh chuẩn đầu ra, chương trình đào tạo và nội dung môn học",0,0.0
+Điều gì là cốt lõi cho việc công nhận và chuyển đổi tín chỉ?,học,chương trình đào tạo và nội dung môn học ,0,0.19999999999999998
+Cốt lõi của việc công nhận và chuyển đổi tín chỉ?,học,chương trình đào tạo và nội dung môn học ,0,0.19999999999999998
+Khi chuyển đổi tín chỉ thì điều gì là trọng tâm?,Kết,chương trình đào tạo và nội dung môn học ,0,0.0
+Cơ sở cho việc công nhận và chuyển đổi tín chỉ là gì?,học,chương trình đào tạo và nội dung môn học ,0,0.19999999999999998
+Quy định về tổng số tín chỉ được công nhận và chuyển đổi?,thông.,"Tổng số tín chỉ được công nhận và chuyển đổi không vượt quá 25% tổng số tín chỉ của chương trình đào tạo đối với đào tạo chính quy tập trung và không vượt quá 50% đối với đào tạo không chính quy, văn bằng 2 và liên thông",0,0.0
+Tổng số tín chỉ được công nhận và chuyển đổi có bị giới hạn hay không?,không,"Tổng số tín chỉ được công nhận và chuyển đổi không vượt quá 25% tổng số tín chỉ của chương trình đào tạo đối với đào tạo chính quy tập trung và không vượt quá 50% đối với đào tạo không chính quy, văn bằng 2 và liên thông",0,0.039999999999999994
+Điều kiện để sinh được chuyển trường?,có đủ các điều kiện sau:,"Trong thời gian học tập, nếu gia đình sinh viên chuyển hộ khẩu thường trú, chuyển nơi công tác hoặc sinh viên có hoàn cảnh khó khăn, cần thiết phải chuyển đến trường gần nơi cư trú của gia đình để có điều kiện học tập, Trường xin chuyển đi và trường tiếp nhận có cùng ngành học hoặc cùng nhóm ngành đào tạo, Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và Hiệu trưởng trường tiếp nhận, Không phải là sinh viên năm thứ nhất hoặc năm cuối",0,0.06122448979591836
+Sinh viên được chuyển trường khi nào?,"Trong thời gian học tập,","Trong thời gian học tập, nếu gia đình sinh viên chuyển hộ khẩu thường trú, chuyển nơi công tác hoặc sinh viên có hoàn cảnh khó khăn, cần thiết phải chuyển đến trường gần nơi cư trú của gia đình để có điều kiện học tập, Trường xin chuyển đi và trường tiếp nhận có cùng ngành học hoặc cùng nhóm ngành đào tạo, Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và Hiệu trưởng trường tiếp nhận, Không phải là sinh viên năm thứ nhất hoặc năm cuối",0,0.10309278350515463
+"Trong thời gian học tập, nếu gia đình sinh viên chuyển hộ khẩu thường trú thì có thể làm gì?",chuyển đến trường gần nơi cư trú của gia đình,chuyển trường,0,0.33333333333333337
+Nếu sinh viên muốn chuyển trường thì trường tiếp nhận sinh viên có thể là bất cứ trường nào phải không?,không,cùng ngành học hoặc cùng nhóm ngành đào tạo,0,0.0
+Sinh viên phải nhận được sự đồng ý của những ai thì mới được chuyển trường?,"Hiệu trưởng trường xin chuyển đi và Hiệu trưởng trường tiếp nhận,",Hiệu trưởng trường xin chuyển đi và Hiệu trưởng trường tiếp nhận,0,0.6666666666666666
+Sinh viên năm thứ bao nhiêu thì không được chuyển trường?,năm thứ nhất hoặc năm cuối,sinh viên năm thứ nhất hoặc năm cuối theo quy định tại Khoản 5 Điều 10,0,0.45454545454545453
+Quy định nào quy định sinh viên năm thứ nhất hoặc năm cuối không đủ điều kiện để được chuyển trường?,Khoản 5 Điều 10.,quy định tại Khoản 5 Điều 10,0,0.5454545454545454
+Trong trường hợp nào thì sinh viên không được phép chuyển trường?,"Sinh viên đã tham dự kỳ thi Trung học phổ thông quốc gia,","Sinh viên đã tham dự kỳ thi Trung học phổ thông quốc gia, đồng thời dự tuyển vào trường nhưng không trúng tuyển hoặc có kết quả thi thấp hơn điểm xét trúng tuyển của trường, ngành xin chuyển đến (đối với các khóa trước năm 2015 là kết quả kỳ thi tuyển sinh vào Đại học, Cao đẳng), Sinh viên có hộ khẩu thường trú thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến, Sinh viên năm thứ nhất hoặc năm cuối của thời gian thiết kế khóa học, Sinh viên đang chịu mức kỷ luật từ cảnh báo trở lên (trường hợp bị kỷ luật vì kết quả học tập có thể được Hiệu trưởng xem xét, quyết định cho chuyển). ",0,0.1857142857142857
+Không cho phép chuyển trường đối với đối tượng sinh viên nào?,"Sinh viên đã tham dự kỳ thi Trung học phổ thông quốc gia,","Sinh viên đã tham dự kỳ thi Trung học phổ thông quốc gia, đồng thời dự tuyển vào trường nhưng không trúng tuyển hoặc có kết quả thi thấp hơn điểm xét trúng tuyển của trường, ngành xin chuyển đến (đối với các khóa trước năm 2015 là kết quả kỳ thi tuyển sinh vào Đại học, Cao đẳng), Sinh viên có hộ khẩu thường trú thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến, Sinh viên năm thứ nhất hoặc năm cuối của thời gian thiết kế khóa học, Sinh viên đang chịu mức kỷ luật từ cảnh báo trở lên (trường hợp bị kỷ luật vì kết quả học tập có thể được Hiệu trưởng xem xét, quyết định cho chuyển). ",0,0.1857142857142857
+Sinh viên đang chịu mức kỷ luật từ cảnh báo trở lên có thể được xem xét chuyển trường hay không?,không,"trường hợp bị kỷ luật vì kết quả học tập có thể được Hiệu trưởng xem xét, quyết định cho chuyển",0,0.0
+"Trường hợp bị kỷ luật vì kết quả học tập có thể được ai xem xét, quyết định cho chuyển?",Hiệu trưởng,Hiệu trưởng ,0,1.0
+Cơ quan nào quy định mẫu hồ sơ xin chuyển trường?,Bộ GD&ĐT.,Bộ GD&ĐT.,1,1.0
+Sinh viên xin chuyển trường làm hồ sơ như thế nào?,theo mẫu quy định thống nhất của Bộ GD&ĐT.,hồ sơ xin chuyển trường theo mẫu quy định thống nhất của Bộ GD&ĐT.,0,0.782608695652174
+Sinh viên xin chuyển trường cần phải có gì?,hồ sơ xin chuyển trường theo mẫu quy định thống nhất của Bộ GD&ĐT.,có hồ sơ xin chuyển trường theo mẫu quy định thống nhất của Bộ GD&ĐT.,0,0.9655172413793104
+Sinh viên bị buộc thôi học trong trường hợp nào?,vi,"vi phạm một trong những trường hợp sau đây: Tự ý bỏ học (không đăng ký học phần) hoặc bỏ thi (không phải thuộc diện cấm thi) từ một học kỳ chính trở lên (ĐTBHK bằng 0), Đã hết thời gian tối đa hoàn thành khóa học, Bị cảnh báo học vụ lần thứ hai liên tiếp và vẫn tái phạm Khoản 1 Điều 17, Bị đình chỉ học tập lần thứ hai, Vi phạm kỷ luật có tính chất và mức độ nghiêm trọng, gây ảnh hưởng xấu đến Trường và xã hội; hoặc vi phạm pháp luật bị xử phạt tù giam",0,0.01904761904761905
+Những vi phạm có thể khiến sinh viên bị buộc thôi học?,Tự,"Tự ý bỏ học (không đăng ký học phần) hoặc bỏ thi (không phải thuộc diện cấm thi) từ một học kỳ chính trở lên (ĐTBHK bằng 0), Đã hết thời gian tối đa hoàn thành khóa học, Bị cảnh báo học vụ lần thứ hai liên tiếp và vẫn tái phạm Khoản 1 Điều 17, Bị đình chỉ học tập lần thứ hai, Vi phạm kỷ luật có tính chất và mức độ nghiêm trọng, gây ảnh hưởng xấu đến Trường và xã hội; hoặc vi phạm pháp luật bị xử phạt tù giam",0,0.020833333333333332
+Vì sao một sinh viên bị buộc thôi học?,vi phạm một trong những trường hợp sau đây: Tự ý bỏ học,"vi phạm một trong những trường hợp sau đây: Tự ý bỏ học (không đăng ký học phần) hoặc bỏ thi (không phải thuộc diện cấm thi) từ một học kỳ chính trở lên (ĐTBHK bằng 0), Đã hết thời gian tối đa hoàn thành khóa học, Bị cảnh báo học vụ lần thứ hai liên tiếp và vẫn tái phạm Khoản 1 Điều 17, Bị đình chỉ học tập lần thứ hai, Vi phạm kỷ luật có tính chất và mức độ nghiêm trọng, gây ảnh hưởng xấu đến Trường và xã hội; hoặc vi phạm pháp luật bị xử phạt tù giam",0,0.2222222222222222
+Nếu sinh viên tự ý bỏ (không đăng ký học phần) thì sẽ bị xử lý như thế nào?,không đạt vào lúc nộp hồ sơ xét tốt nghiệp,buộc thôi học,0,0.0
+"Tự ý bỏ học (không đăng ký học phần) hoặc bỏ thi (không phải thuộc diện cấm thi) từ một học kỳ chính trở lên (ĐTBHK bằng 0), Đã hết thời gian tối đa hoàn thành khóa học, Bị cảnh báo học vụ lần thứ hai liên tiếp và vẫn tái phạm Khoản 1 Điều 17, Bị đình chỉ học tập lần thứ hai, Vi phạm kỷ luật có tính chất và mức độ nghiêm trọng, gây ảnh hưởng xấu đến Trường và xã hội; hoặc vi phạm pháp luật bị xử phạt tù giam là những hành vi có thể dẫn đến hậu quả gì cho sinh viên?",Sinh viên bị buộc thôi học,bị buộc thôi học ,0,0.8
+Hành vi nào được gọi là tự ý bỏ học?,đi thi hộ hoặc nhờ người thi hộ.,không đăng ký học phần,0,0.0
+Trong trường hợp nào sinh viên không đi thi (bỏ thi) nhưng không bị buộc thôi học?,từ một học kỳ chính trở lên,thuộc diện cấm thi,0,0.0
+Tự ý bỏ học (không đăng ký học phần) hoặc bỏ thi (không phải thuộc diện cấm thi) từ bao lâu trở lên thì bị buộc thôi học?,một học kỳ chính trở lên,từ một học kỳ chính trở lên,0,0.923076923076923
+Sinh viên bị buộc thôi học nếu bị cảnh báo hoc vụ lần thứ bao nhiêu liên tiếp và vẫn tái phạm Khoản 1 Điều 17?,lần thứ hai,lần thứ hai liên tiếp ,0,0.7499999999999999
+Vi phạm kỷ luật có tính chất và mức độ như thế nào thì sinh viên bị buộc thôi học?,"nghiêm trọng,","nghiêm trọng, gây ảnh hưởng xấu đến Trường và xã hội",0,0.3076923076923077
+Nếu sinh viên có tên trong quyết định buộc thôi học thì chuyện gì xảy ra?,bị xóa tên khỏi danh sách sinh viên chính thức của Trường.,bị xóa tên khỏi danh sách sinh viên chính thức của Trường,0,0.9166666666666666
+Trong trường hợp nào sinh viên bị xóa tên khỏi danh sách sinh viên chính thức của Trường?,Sinh viên có tên trong quyết định buộc thôi học,Sinh viên có tên trong quyết định buộc thôi học ,0,1.0
+Trường có trách nhiệm thông báo về địa phương và gia đình sinh viên biết chậm nhất là bao lâu sau khi có quyết định buộc thôi học?,một tháng,một tháng,1,1.0
+Trách nhiệm của Trường khi có quyết định buộc 1 sinh viên thôi học?,thông,thông báo về địa phương và gia đình sinh viên biết chậm nhất một tháng sau khi có quyết định buộc thôi học.,0,0.08333333333333333
+Ai sẽ nhận được thông báo khi có quyết định buộc thôi học 1 sinh viên?,địa phương và gia đình sinh viên,địa phương và gia đình sinh viên,1,1.0
+Trong trường hợp nào thí sinh trúng tuyển có thể xin bảo lưu kết quả?,"bệnh tật, tai nạn, hoàn cảnh khó khăn xảy ra đột xuất,","một số hoàn cảnh đặc biệt  như bệnh tật, tai nạn, hoàn cảnh khó khăn xảy ra đột xuất",0,0.7096774193548387
+Thí sinh sau khi được xét trúng tuyển vào trường có thể xin bảo lưu kết quả hay không?,có thể xin bảo lưu kết quả.,"một số hoàn cảnh đặc biệt  như bệnh tật, tai nạn, hoàn cảnh khó khăn xảy ra đột xuất",0,0.0
+Việc xét xin bảo lưu kết quả của thí sinh trúng tuyển được thực hiện trong trường hợp nào?,có quyết định chấp thuận của Hiệu trưởng.,"một số hoàn cảnh đặc biệt  như bệnh tật, tai nạn, hoàn cảnh khó khăn xảy ra đột xuất",0,0.0
+Thí sinh trúng tuyển phải nộp đơn xin bảo lưu chậm nhất bao nhiêu ngày kể từ ngày gọi nhập học cho P. ĐTĐH của Trường ?,15 ngày,15 ngày ,0,1.0
+Thời hạn tối đa để thí sinh trúng tuyển nộp đơn xin bảo lưu?,15 ngày,15 ngày ,0,1.0
+Ai là người xét duyệt đơn xin bảo lưu kết quả của sinh viên trúng tuyển?,Hiệu trưởng.,Hiệu trưởng,0,0.5
+Điều kiện để đơn xin bảo lưu kết quả hợp lệ?,Thí,Thí sinh trúng tuyển phải nộp đơn xin bảo lưu chậm nhất 15 ngày kể từ ngày gọi nhập học cho P. ĐTĐH của Trường và chỉ được bảo lưu khi có quyết định chấp thuận của Hiệu trưởng,0,0.05
+Thời gian bảo lưu kết quả trúng tuyển?,không quá 01 năm.,không quá 01 năm,0,0.75
+Thí sinh trúng tuyển được bảo lưu kết quả trúng tuyển trong thời hạn bao lâu?,không quá 01 năm.,không quá 01 năm,0,0.75
+"Nếu muốn nhập học lại, thí sinh trúng tuyển cần phải làm gì?",làm đơn xin nhập học kèm theo quyết định bảo lưu nộp P. ĐTĐH, thí sinh phải làm đơn xin nhập học kèm theo quyết định bảo lưu nộp P. ĐTĐH của Trường trước khi bắt đầu học kỳ ít nhất 1 tháng để được giải quyết.,0,0.5957446808510638
+Thí sinh trúng tuyển bảo lưu kết quả học tập cần làm gì khi có ý định nhập học lại?,tháng, thí sinh phải làm đơn xin nhập học kèm theo quyết định bảo lưu nộp P. ĐTĐH của Trường trước khi bắt đầu học kỳ ít nhất 1 tháng để được giải quyết.,0,0.05882352941176471
+Đơn xin nhập học lại của thí sinh trúng tuyển đã bảo lưu kết quả phải được nộp cho phòng ban nào của Trường?,P. ĐTĐH của Trường,nộp P. ĐTĐH của Trường ,0,0.888888888888889
+Phòng ban nào của Trường tiếp nhận đơn xin nhập học lại của thí sinh trúng tuyển đã bảo lưu kết quả?,P. ĐTĐH của Trường,nộp P. ĐTĐH của Trường ,0,0.888888888888889
+"Để đơn xin nhập học lại được giải quyết, phải nộp trong thời gian nào?",trước khi bắt đầu học kỳ ít nhất 1 tháng,trước khi bắt đầu học kỳ ít nhất 1 tháng để được giải quyết.,0,0.8333333333333333
+"Muốn nhập học lại, thí sinh cần đem giấy tờ gì đến nộp P. ĐTĐH của Trường ?",đơn xin nhập học kèm theo quyết định bảo lưu, đơn xin nhập học kèm theo quyết định bảo lưu,0,1.0
+Trường có mở lớp học tiếng anh hay không?,nhận.,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên.",0,0.0
+Em muốn học thêm ngoại ngữ thì trường có những hỗ trợ nào không?,"mở với thời khóa biểu riêng,","Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường",0,0.15384615384615385
+Có nhu cầu học thêm ngoại trong trường nên tò mò không biết trường có mở lớp không ta?,Các lớp học ngoại ngữ,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.12987012987012989
+Học ngoại ngữ có phải học phần bắt buộc không?,không,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.0273972602739726
+Có bị bắt buộc phải học ngoại ngữ trong trường không?,tự do đăng ký học các lớp ngoại ngữ,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.2222222222222222
+Tiếng anh có nằm trong chương trình đào tạo của sinh viên chính quy không?,có,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.0
+Khi nào có thể đăng ký học cải thiện tiếng anh?,nhận.,Trong học kỳ hè sinh viên có thể đăng ký học mới và học lại/học cải thiện các môn ngoại ngữ.,0,0.0
+Lỡ lịch học ngoại ngữ ở trường của em bị trùng với lịch học chính khóa thì em nghỉ học một trong hai à?,học kỳ hè,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.026666666666666665
+Lịch học ngoại ngữ có bị chồng chéo với lịch học chính khóa không?,không,"Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với thời khóa biểu riêng, linh động theo nhu cầu của sinh viên. Sinh viên sẽ được tự do đăng ký học các lớp ngoại ngữ theo điều kiện môn tiên quyết và không trùng giờ học với các môn học chính khóa mà sinh viên đang học trên hệ thống của Trường. ",0,0.0273972602739726
+Học phí các môn học ngoại ngữ?,học,"Học phí các môn ngoại ngữ trong chương trình đào tạo được tính theo quy định: học lần đầu được tính trọn gói trong học phí học kỳ, học lần thứ hai trở đi được coi là học lại/cải thiện",0,0.04878048780487806
+Học ngoại ngữ ở trường thì tiền bạc thế nào?,"học lần đầu được tính trọn gói trong học phí học kỳ,","Học phí các môn ngoại ngữ trong chương trình đào tạo được tính theo quy định: học lần đầu được tính trọn gói trong học phí học kỳ, học lần thứ hai trở đi được coi là học lại/cải thiện",0,0.3846153846153846
+Học ngoại ngữ ở trường lần thứ 2 thì có tốn tiền không?,không,"Học phí các môn ngoại ngữ trong chương trình đào tạo được tính theo quy định: học lần đầu được tính trọn gói trong học phí học kỳ, học lần thứ hai trở đi được coi là học lại/cải thiện",0,0.0
+"Đối với học phần ngoại ngữ, em đang chuẩn bị học lại lần thứ 2 thì phải đóng học phí như lần đầu hay là sao?","học lần đầu được tính trọn gói trong học phí học kỳ,","Học phí các môn ngoại ngữ trong chương trình đào tạo được tính theo quy định: học lần đầu được tính trọn gói trong học phí học kỳ, học lần thứ hai trở đi được coi là học lại/cải thiện",0,0.3846153846153846
+Điểm của học phần ngoại ngữ được tích lũy vào đâu?,học kỳ 2 cùng năm học.,Thời điểm thi kết thúc môn học thuộc học kỳ nào thì Trường sẽ tính điểm cho sinh viên vào học kỳ đó. Riêng các lớp có thời điểm thi kết thúc môn học thuộc học kỳ hè sẽ được tính vào học kỳ 2 cùng năm học.,0,0.2222222222222222
+Cách tích lũy điểm của học phần ngoại ngữ?,Thời điểm thi kết thúc môn học thuộc học kỳ nào,Thời điểm thi kết thúc môn học thuộc học kỳ nào thì Trường sẽ tính điểm cho sinh viên vào học kỳ đó. Riêng các lớp có thời điểm thi kết thúc môn học thuộc học kỳ hè sẽ được tính vào học kỳ 2 cùng năm học.,0,0.3389830508474576
+Em thi tiếng anh vào học kỳ hè thì điểm của môn đó được tính vào học kỳ nào nhỉ?,học kỳ thứ 2,học kỳ 2 cùng năm học.,0,0.6
+Đối tượng nào có thể được Trường xem xét cho trở thành sinh viên dự thính?,"Các cá nhân có nhu cầu học bổ túc kiến thức một số môn học,","Các cá nhân có nhu cầu học bổ túc kiến thức một số môn học, có đủ điều kiện về nhân thân và trình độ",0,0.7499999999999999
+"Trường xem xét cho một cá nhân trở thành sinh viên dự thính khi cá nhân đó thỏa mãn yêu cầu nào?
+","học bổ túc kiến thức một số môn học,","Các cá nhân có nhu cầu học bổ túc kiến thức một số môn học, có đủ điều kiện về nhân thân và trình độ",0,0.5294117647058824
+"Điều kiện để trở thành sinh viên dự thính
+",có đủ điều kiện về nhân thân và trình độ,"Các cá nhân có nhu cầu học bổ túc kiến thức một số môn học, có đủ điều kiện về nhân thân và trình độ",0,0.5714285714285715
+Sinh viên dự thính được cấp giấy chứng nhận việc theo học và kết quả học tập của các môn học đã đăng ký khi nào?,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường.,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường. ,0,1.0
+Giấy chứng nhận việc theo học và kết quả học tập của các môn học đã đăng ký được cấp cho sinh viên dự thính dưới điều kiện nào?,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường.,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường. ,0,1.0
+"Để được cấp giấy chứng nhận việc theo học và kết quả học tập của các môn học đã đăng ký, sinh viên dự thính cần phải làm gì?",thực hiện đầy đủ nghĩa vụ theo các quy định của Trường.,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường. ,0,1.0
+Sinh viên dự thính có được cấp bằng tốt nghiệp đại học không?,không,không được ,0,0.6666666666666666
+Bằng tốt nghiệp đại học có thể được cấp cho sinh viên dự thính hay không?,không,không được ,0,0.6666666666666666
+Sinh viên dự thính cần làm gì để được cấp bằng tốt nghiệp đại học?,thực hiện đầy đủ nghĩa vụ theo các quy định của Trường.,Sinh viên dự thính không được cấp bằng tốt nghiệp đại học. ,0,0.0
+Ai là người xem xét và đưa ra quyết định thu nhận sinh viên dự thính?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Một cá nhân muốn trở thành sinh viên dự thính phải thông qua sự xem xét và quyết định của ai?,Trường,Hiệu trưởng,0,0.0
+Sinh viên tự do và dự thính có được hưởng chính sách dành cho sinh viên chính quy hay không?,không,không được ,0,0.6666666666666666
+Chính sách dành cho sinh viên chính quy có được áp dụng với sinh viên tự do và dự thính hay không?,không,không được ,0,0.6666666666666666
+Điểm khác biệt giữa sinh viên tự do và dự thính với sinh viên chính quy là gì?,Sinh,"Sinh viên tự do và dự thính không được hưởng chính sách dành cho sinh viên chính quy, phải đóng học phí theo mức riêng.",0,0.07692307692307693
+Mức học phí của sinh viên tự do và dự thính có tương đương với mức học phí của sinh viên chính quy hay không?,không,"Sinh viên tự do và dự thính không được hưởng chính sách dành cho sinh viên chính quy, phải đóng học phí theo mức riêng.",0,0.07692307692307693
+Mức học phí của sinh viên chính quy có được áp dụng với sinh viên tự do và dự thính hay không?,không,"Sinh viên tự do và dự thính không được hưởng chính sách dành cho sinh viên chính quy, phải đóng học phí theo mức riêng.",0,0.07692307692307693
+Thời gian thiết kế để sinh viên hoàn thành chương trình giáo dục của một ngành chuyên môn ở trình độ đại học được gọi là gì?,khóa học,Khóa học,0,0.5
+"Đối với người có bằng tốt nghiệp trung học phổ thông hoặc bằng tốt nghiệp trung cấp, thời gian đào tạo trình độ đại học là bao nhiêu?",từ 3 đến 5 năm,từ 3 đến 5 năm,1,1.0
+"Đào tạo trình độ đại học trong khoảng thời gian từ 1,5 năm đến 2,5 năm được áp dụng với đối tượng nào?",người có bằng tốt nghiệp cao đẳng,người có bằng tốt nghiệp cao đẳng cùng ngành đào tạo ,0,0.7777777777777778
+"Thời gian đào tạo liên thông, văn bằng 2 được xác định thế nào?",Nghĩa,xác định trên cơ sở học phần và khối lượng tích lũy quy định cho từng chương trình.,0,0.0
+Sinh viên có được rút ngắn hoặc kéo dài thời gian đào tạo hay không?,được,Tuỳ theo khả năng học tập,0,0.0
+Thời lượng tối đa sinh viên được kéo dài thời gian học?,4 học kỳ chính.,4,0,0.4
+Thời lượng tối đa sinh viên được rút ngắn thời gian học?,2 học kỳ chính, Sinh viên được phép rút ngắn tối đa 2 học kỳ chính ,0,0.5
+"Quá thời hạn tối đa của khóa học, chuyện gì sẽ xảy ra với sinh viên?",bị xóa tên khỏi danh sách sinh viên chính quy.,sẽ bị xóa tên khỏi danh sách sinh viên chính quy. ,0,0.9523809523809523
+Sinh viên sẽ bị gì nếu quá thời hạn tối đa của khóa học?,bị xóa tên khỏi danh sách sinh viên chính quy.,sinh viên sẽ bị xóa tên khỏi danh sách sinh viên chính quy. ,0,0.8695652173913044
+Nếu sinh viên có nguyện vọng tiếp tục hoàn thành chương trình đào tạo thì cần làm thủ tục gì?,số tín chỉ tích lũy tối thiểu là 70%,"có thể làm đơn để được xem xét chuyển sang sinh viên tự do được quy định tại Khoản 2, Điều 10 của quy chế này.",0,0.0
+Đối tượng nào được xem xét chuyển sang sinh viên tự do?,"Sinh viên năm thứ nhất hoặc năm cuối của thời gian thiết kế khóa học,",sinh viên có nguyện vọng tiếp tục hoàn thành chương trình đào tạo ,0,0.07142857142857144
+"Đối tượng nào được kéo dài thêm 2 học kỳ chính so với quy định tại Khoản 2, Điều 6 của Quy chế này?",Các sinh viên được hưởng chính sách ưu tiên,Các sinh viên được hưởng chính sách ưu tiên ,0,1.0
+"Nhóm ưu tiên 1 và 2 theo quy chế xét tuyển đại học, cao đẳng được hưởng quyền ưu tiên gì?","ưu tiên xét tuyển học sinh giỏi,","được kéo dài thêm 2 học kỳ chính so với quy định tại Khoản 2, Điều 6 của Quy chế này",0,0.07142857142857142
+Ai là người có thể quy định mở rộng thời gian tối đa của một khóa đào tạo?,Hiệu trưởng,Hiệu trưởng,1,1.0
+Thời gian mở rộng tối đa của một khóa học không vượt quá bao nhiêu lần thời gian thiết kế cho khóa học?,02,02 lần,0,0.6666666666666666
+Có thể mở rộng thời gian tối đa của một khóa đào tạo hay không?,có thể quy định mở rộng thời gian tối đa của một khóa đào tạo,Hiệu trưởng có thể quy định mở rộng thời gian tối đa của một khóa đào tạo,0,0.9375
+Các loại điểm của học phần được đánh giá theo thang điểm nào?,thang điểm 10.,thang điểm 10,0,0.6666666666666666
+Thang điểm cho các loại điểm của học phần?,thang điểm 10.,thang điểm 10,0,0.6666666666666666
+Điểm cuối cùng để đánh giá một học phần được gọi là?,điểm học phần.,điểm học phần,0,0.6666666666666666
+Thế nào là điểm học phần?,Điểm cuối cùng để đánh giá một học phần,Điểm cuối cùng để đánh giá một học phần,1,1.0
+Điểm học phần là gì?,Điểm cuối cùng để đánh giá một học phần,Điểm cuối cùng để đánh giá một học phần,1,1.0
+Tiêu chí nào để đánh giá điểm học phần?,đó.,dựa trên kết quả học tập toàn diện của sinh viên trong suốt học kỳ đối với học phần đó,0,0.0
+Điểm học phần được đánh giá dựa vào đâu?,đó.,dựa trên kết quả học tập toàn diện của sinh viên trong suốt học kỳ đối với học phần đó,0,0.0
+Làm sao đánh giá được điểm học phần?,đó.,dựa trên kết quả học tập toàn diện của sinh viên trong suốt học kỳ đối với học phần đó,0,0.0
+"Ngoài điểm thi kết thúc học phần, điểm học phần có thể bao gồm các loại điểm thành phần nào?",tập.,"Điểm kiểm tra giữa học kỳ, điểm đánh giá năng lực hoặc nhận thức của sinh viên trong các buổi thảo luận, điểm đánh giá kết quả thực hành hoặc bài tập, điểm đánh giá mức độ chuyên cần của sinh viên trong quá trình học tập",0,0.0
+Các thành phần của điểm học phần ngoài điểm thi kết thúc học phần là gì?,tập.,"Điểm kiểm tra giữa học kỳ, điểm đánh giá năng lực hoặc nhận thức của sinh viên trong các buổi thảo luận, điểm đánh giá kết quả thực hành hoặc bài tập, điểm đánh giá mức độ chuyên cần của sinh viên trong quá trình học tập",0,0.0
+Những điểm nào đóng góp vào điểm học phần?,đó.,"Ngoài điểm thi kết thúc học phần, điểm học phần có thể bao gồm các loại điểm thành phần sau: Điểm kiểm tra giữa học kỳ, điểm đánh giá năng lực hoặc nhận thức của sinh viên trong các buổi thảo luận, điểm đánh giá kết quả thực hành hoặc bài tập, điểm đánh giá mức độ chuyên cần của sinh viên trong quá trình học tập",0,0.0
+"Điểm kiểm tra giữa học kỳ, điểm đánh giá năng lực hoặc nhận thức của sinh viên trong các buổi thảo luận, điểm đánh giá kết quả thực hành hoặc bài tập, điểm đánh giá mức độ chuyên cần của sinh viên trong quá trình học tập là những thành phần của loại điểm nào?",điểm học phần,điểm học phần,1,1.0
+Mỗi loại điểm học phần được làm tròn đến bao nhiêu?,"0,5","0,5",1,1.0
+Hệ số riêng của mỗi loại điểm học phần được quy định ở đâu?,trong đề cương chi tiết của từng học phần, trong đề cương chi tiết của từng học phần và được cán bộ giảng dạy thông báo rộng rãi đến sinh viên trong tuần đầu tiên của học kỳ,0,0.4736842105263158
+Ai thông báo đến sinh viên về hệ số riêng của mỗi loại điểm thành phần?,cán bộ giảng dạy,cán bộ giảng dạy ,0,1.0
+Hệ số riêng của mỗi loại điểm thành phần được thông báo đến sinh viên khi nào?,trong tuần đầu tiên của học kỳ.,tuần đầu tiên của học kỳ,0,0.7692307692307692
+Cách tính điểm học phần?,tính theo thang điểm 10,". Điểm học phần sẽ là điểm trung bình tính theo hệ số của điểm thi kết thúc học phần và các điểm thành phần, tính theo thang điểm 10 và được làm tròn đến 0,1",0,0.24390243902439027
+Điểm học phần được tính như thế nào?,"tính theo thang điểm 10 và được làm tròn đến 0,1.",". Điểm học phần sẽ là điểm trung bình tính theo hệ số của điểm thi kết thúc học phần và các điểm thành phần, tính theo thang điểm 10 và được làm tròn đến 0,1",0,0.4255319148936171
+Sinh viên muốn cải thiện điểm đối với học phần có kết quả đạt phải làm thế nào?,đăng ký học lại.,"phải đăng ký học lại học phần đó theo quy định sau: Sinh viên chỉ được cải thiện trong vòng hai học kỳ chính và một học kỳ hè tiếp theo, tính từ học kỳ sinh viên học lần đầu tiên, Sinh viên chỉ được cải thiện đối với những học phần có điểm từ 5,0 đến 5,4",0,0.0967741935483871
+Quy định đăng ký học lại học phần có kết quả đạt đối với những sinh viên muốn cải thiện điểm?,"5 điểm trở lên),","Sinh viên chỉ được cải thiện trong vòng hai học kỳ chính và một học kỳ hè tiếp theo, tính từ học kỳ sinh viên học lần đầu tiên, Sinh viên chỉ được cải thiện đối với những học phần có điểm từ 5,0 đến 5,4",0,0.04
+"Quy định : ""Sinh viên chỉ được cải thiện trong vòng hai học kỳ chính và một học kỳ hè tiếp theo, tính từ học kỳ sinh viên học lần đầu tiên, Sinh viên chỉ được cải thiện đối với những học phần có điểm từ 5,0 đến 5,4"" áp dụng với đối tượng sinh viên nào?",sinh viên muốn cải thiện điểm phải đăng ký học lại học phần đó,"Đối với học phần có kết quả đạt, sinh viên muốn cải thiện điểm phải đăng ký học lại học phần đó",0,0.7222222222222223
+Thời gian học cải thiện điểm của sinh viên đối với học phần có kết quả đạt?,"5 điểm trở lên),","Sinh viên chỉ được cải thiện trong vòng hai học kỳ chính và một học kỳ hè tiếp theo, tính từ học kỳ sinh viên học lần đầu tiên",0,0.0
+Học phần có điểm bao nhiêu thì được học cải thiện điểm?,"5,0 đến 5,4,","từ 5,0 đến 5,4",0,0.5714285714285715
+Sinh viên chỉ được cải thiện điểm với mức điểm như thế nào?,"5,0 đến 5,4,","từ 5,0 đến 5,4",0,0.5714285714285715
+"Kết quả nào được chọn để tính vào ĐTBTLTK, ĐTBCTL?",Điểm bảo lưu,Kết quả cao nhất trong các lần học ,0,0.0
+Kết quả cao nhất trong các lần học sẽ được chọn để tính vào đâu?,"ĐTBTLTK, ĐTBCTL.","tính vào ĐTBTLTK, ĐTBCTL",0,0.3333333333333333
+Điểm của những lần học trước có được lưu trữ không?,Không,Điểm của tất cả các lần học được lưu đầy đủ trong kết quả học tập của sinh viên,0,0.0
+Tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào thì được tính vào tổng số tín chỉ đăng ký học ở học kỳ đó theo quy định nào? ,Khoản 1 Điều 15,theo quy định tại Khoản 1 Điều 15 của Quy chế này,0,0.5
+Quy chế nào quy định tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào thì được tính vào tổng số tín chỉ đăng ký học ở học kỳ đó? ,Khoản 1 Điều 15,theo quy định tại Khoản 1 Điều 15 của Quy chế này,0,0.5
+Số tín chỉ tích lũy được khi đăng ký học cải thiện được ghi nhận như thế nào?,tính vào tổng số tín chỉ đăng ký học ở học kỳ đó,"Tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào thì được tính vào tổng số tín chỉ đăng ký học ở học kỳ đó theo quy định tại Khoản 1 Điều 15 của Quy chế này, Tổng số tín chỉ học cải thiện trong quá trình học không được vượt quá 10% tổng số tín chỉ toàn khóa được quy định trong chương trình đào tạo của ngành, khóa học tương ứng",0,0.26966292134831454
+Quy định về số tín chỉ đăng ký học cải thiện?,Tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào,"Tổng số tín chỉ đăng ký học cải thiện ở học kỳ nào thì được tính vào tổng số tín chỉ đăng ký học ở học kỳ đó theo quy định tại Khoản 1 Điều 15 của Quy chế này, Tổng số tín chỉ học cải thiện trong quá trình học không được vượt quá 10% tổng số tín chỉ toàn khóa được quy định trong chương trình đào tạo của ngành, khóa học tương ứng. ",0,0.26966292134831454
+Tổng số tín chỉ học cải thiện trong quá trình học không được vượt quá bao nhiêu phần trăm tổng số tín chỉ toàn khóa?,10%,10%,1,1.0
+Tổng số tín chỉ toàn khóa được quy định ở đâu?,"trong chương trình đào tạo của ngành, khóa học tương ứng.","được quy định trong chương trình đào tạo của ngành, khóa học tương ứng",0,0.8
+"Trong trường hợp đặc biệt, sinh viên có thể làm đơn gửi cho ai giải quyết?",P. ĐTĐH,Hiệu trưởng ,0,0.0
+Việc đăng ký học phần cải thiện được thực hiện theo quy trình nào?,đăng ký học phần của Trường.,theo quy trình đăng ký học phần của Trường.,0,0.8
+Làm thế nào để đăng ký học phần cải thiện?,quy trình đăng ký học phần của Trường.,Việc đăng ký học phần cải thiện được thực hiện theo quy trình đăng ký học phần của Trường.,0,0.5925925925925926
+"Em học 2 văn bằng và hiện sắp tốt nghiệp ngành đào tạo thứ hai, vậy em được cấp 2 bằng tốt nghiệp phải không?",có đủ điều kiện tốt nghiệp ở chương trình đào tạo thứ nhất.,"Bằng tốt nghiệp được cấp theo ngành đào tạo, nếu sinh viên tốt nghiệp ngành đào tạo thứ hai theo quy định tại Điều 19 của Quy chế này được cấp bằng tốt nghiệp chuyên ngành phụ.",0,0.2
+Quy định nào quy định về việc cấp bằng tốt nghiệp cho chuyên ngành thứ 2?,P.ĐTĐH,quy định tại Điều 19 của Quy chế này,0,0.0
+"Bằng tốt nghiệp của tôi ghi sai ngày tháng năm sinh của tôi, nhưng hiện tại tôi đang cần gấp, vậy tôi có thể lấy bằng luôn mà không cần sửa đổi được không?",không,"Bằng chỉ được cấp cho sinh viên khi đã ghi đầy đủ, chính xác các nội dung trên bằng",0,0.0
+Bằng tốt nghiệp phải đáp ứng tiêu chí nào thì mới được cấp cho sinh viên?,Chương trình chất lượng cao,"Bằng chỉ được cấp cho sinh viên khi đã ghi đầy đủ, chính xác các nội dung trên bằng.",0,0.0
+Nội dung trên bằng tốt nghiệp phải đáp ứng điều kiện gì?,"đáp ứng mục tiêu và chuẩn đầu ra cao hơn,","Bằng chỉ được cấp cho sinh viên khi đã ghi đầy đủ, chính xác các nội dung trên bằng.",0,0.0
+Cơ sở nào để xếp loại tốt nghiệp?,ĐHQG-HCM,"Xếp loại tốt nghiệp được xác định dựa trên ĐTBTLTK theo bảng xếp loại quy định tại Khoản 1, Điều 22 của Quy chế này và theo điểm rèn luyện tích lũy",0,0.0
+"Làm sao để biết em sẽ đạt loại khá, giỏi hay xuất sắc hay gì đó khi tốt nghiệp?",kết quả học tập toàn khóa,"Xếp loại tốt nghiệp được xác định dựa trên ĐTBTLTK theo bảng xếp loại quy định tại Khoản 1, Điều 22 của Quy chế này và theo điểm rèn luyện tích lũy",0,0.0
+Xếp loại tốt nghiệp cho sinh viên dựa trên những yếu tố nào?,dựa trên ĐTBTLTK,"Xếp loại tốt nghiệp được xác định dựa trên ĐTBTLTK theo bảng xếp loại quy định tại Khoản 1, Điều 22 của Quy chế này và theo điểm rèn luyện tích lũy",0,0.17142857142857143
+"Ngoài ĐTBTLTK, tiêu chí xét loại tốt nghiệp còn bao gồm gì nữa?",các học phần có điểm bảo lưu).,theo điểm rèn luyện tích lũy,0,0.15384615384615383
+"Vì sao trong toàn bộ quá trình học em đạt xếp loại ""Xuất sắc"", nhưng bằng tốt nghiệp em nhận lại chỉ được xếp loại ""Giỏi""?",không đủ điều kiện cấp bằng tốt nghiệp,"Đối với những sinh viên có kết quả học tập toàn khóa đạt ""Xuất sắc"" hoặc ""Giỏi"", loại tốt nghiệp sẽ giảm 1 bậc nếu rơi vào một trong các trường hợp sau (nếu vi phạm nhiều hơn  thì cũng chỉ xét giảm 1 bậc): Có thời gian học tập tại Trường vượt quá 02 học kỳ so với thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin, có số tín chỉ học lại vượt quá 5% tổng số tín chỉ toàn khóa, điểm rèn luyện nhỏ hơn 80, đã bị kỷ luật trong thời gian học mức cảnh báo trở lên",0,0.028571428571428574
+Lí do nào mà xếp loại tốt nghiệp của em bị giảm xuống 1 bậc?,rơi vào một trong các trường hợp sau,"Đối với những sinh viên có kết quả học tập toàn khóa đạt ""Xuất sắc"" hoặc ""Giỏi"", loại tốt nghiệp sẽ giảm 1 bậc nếu rơi vào một trong các trường hợp sau (nếu vi phạm nhiều hơn  thì cũng chỉ xét giảm 1 bậc): Có thời gian học tập tại Trường vượt quá 02 học kỳ so với thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin, có số tín chỉ học lại vượt quá 5% tổng số tín chỉ toàn khóa, điểm rèn luyện nhỏ hơn 80, đã bị kỷ luật trong thời gian học mức cảnh báo trở lên",0,0.1142857142857143
+"Vì sao khi tốt nghiệp, em lại nhận được bằng loại ""Khá"" trong khi kết quả học tập toàn khóa của em được xếp loại ""Giỏi""?",không đủ điều kiện cấp bằng tốt nghiệp,"Đối với những sinh viên có kết quả học tập toàn khóa đạt ""Xuất sắc"" hoặc ""Giỏi"", loại tốt nghiệp sẽ giảm 1 bậc nếu rơi vào một trong các trường hợp sau (nếu vi phạm nhiều hơn  thì cũng chỉ xét giảm 1 bậc): Có thời gian học tập tại Trường vượt quá 02 học kỳ so với thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin, có số tín chỉ học lại vượt quá 5% tổng số tín chỉ toàn khóa, điểm rèn luyện nhỏ hơn 80, đã bị kỷ luật trong thời gian học mức cảnh báo trở lên",0,0.028571428571428574
+"Kết quả học tập toàn khóa của em đạt loại ""Giỏi"", nhưng thời gian học tập tại trường của em lâu hơn quy định 3 học kỳ và chỉ đạt điểm rèn luyện là 60, vậy em bị xét giảm bao nhiêu bậc khi xếp loại tốt nghiệp?",giảm 1 bậc,". Đối với những sinh viên có kết quả học tập toàn khóa đạt ""Xuất sắc"" hoặc ""Giỏi"", loại tốt nghiệp sẽ giảm 1 bậc nếu rơi vào một trong các trường hợp sau (nếu vi phạm nhiều hơn  thì cũng chỉ xét giảm 1 bậc): Có thời gian học tập tại Trường vượt quá 02 học kỳ so với thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin, có số tín chỉ học lại vượt quá 5% tổng số tín chỉ toàn khóa, điểm rèn luyện nhỏ hơn 80, đã bị kỷ luật trong thời gian học mức cảnh báo trở lên",0,0.04411764705882353
+Thời gian thiết kế học tập được quy định tại điều khoản nào?,"Khoản 1, Điều 6","thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin",0,0.18604651162790695
+Cơ sở pháp lí của thời gian thiết kế khóa học?,học phần và khối lượng tích lũy quy định cho từng chương trình.,"thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin",0,0.11538461538461538
+"Em bị giảm bậc xếp loại khi tốt nghiệp với lí do thời gian học tập tại trường vượt quá 2 học kỳ so với thời gian thiết kế, không biết cơ sở nào để khẳng định điều đó ạ?",rơi vào một trong các trường hợp sau,"thời gian thiết kế được quy định tại Khoản 1, Điều 6 của Quy chế ban hành theo quyết định số 813/QĐ- ĐHCNTT-ĐTĐH, ngày 16 tháng 11 năm 2017 của Hiệu trưởng Trường Đại học Công nghệ Thông tin",0,0.0
+Những sinh viên không đủ điều kiện cấp bằng tốt nghiệp nhưng chưa hết thời gian tối đa được phép học thì giải quyết như thế nào?,Trường.,được bảo lưu các học phần có kết quả đạt,0,0.0
+"Vì thiếu điểm rèn luyện nên em không được cấp bằng tốt nghiệp nhưng theo quy định, em còn thời hạn được phép học, vậy trường xử lí trường hợp của em ra sao?",được bảo lưu các học phần có kết quả đạt.,"Những sinh viên không đủ điều kiện cấp bằng tốt nghiệp nhưng chưa hết thời gian tối đa được phép học, được bảo lưu các học phần có kết quả đạt. Trong thời gian tối đa được phép học như quy định tại Khoản 2, Điều 6 theo Quy chế, sinh viên được trở về Trường đăng ký học lại và thi cho những học phần chưa đạt hoặc chưa học",0,0.2469135802469136
+Có bắt buộc phải đi thực tập hay không?,bắt buộc,Thực tập doanh nghiệp là học phần bắt buộc và tiên quyết để xét sinh viên đủ điều kiện bảo vệ khóa luận tốt nghiệp đối với các ngành đào tạo kỹ sư,0,0.1142857142857143
+Sinh viên có bị bắt buộc phải đi thực tập ở doanh nghiệp hay không?,bắt buộc,Thực tập doanh nghiệp là học phần bắt buộc và tiên quyết để xét sinh viên đủ điều kiện bảo vệ khóa luận tốt nghiệp đối với các ngành đào tạo kỹ sư,0,0.1142857142857143
+Đối với ngành nào thì thực tập doanh nghiệp là học phần tiên quyết?,các ngành đào tạo kỹ sư.,các ngành đào tạo kỹ sư,0,0.8333333333333334
+"Em được thông báo phải tham gia thực tập doanh nghiệp, em không biết mục đích của việc này là gì?",bảo vệ khóa luận tốt nghiệp đối với các ngành đào tạo kỹ sư.,Thực tập doanh nghiệp là học phần bắt buộc và tiên quyết để xét sinh viên đủ điều kiện bảo vệ khóa luận tốt nghiệp đối với các ngành đào tạo kỹ sư. ,0,0.5957446808510638
+"Điều kiện tiên quyết để bảo vệ khóa luận tốt nghiệp của em là gì, (em là sinh viên ngành đào tạo kỹ sư)?",Thực tập doanh nghiệp,Thực tập doanh nghiệp là học phần bắt buộc và tiên quyết để xét sinh viên đủ điều kiện bảo vệ khóa luận tốt nghiệp đối với các ngành đào tạo kỹ sư.,0,0.21621621621621626
+Thời gian thực tập doanh nghiệp là bao lâu?,"8 tuần,",tối thiểu là 8 tuần,0,0.28571428571428575
+Em phải đi thực tập ít nhất bao lâu?,45 – 60 tiết,tối thiểu là 8 tuần,0,0.0
+Thời gian của một kỳ thực tập doanh nghiệp?,"8 tuần,",tối thiểu là 8 tuần,0,0.28571428571428575
+"Khi thực tập doanh nghiệp, tôi có được chọn người hướng dẫn không?",không,dưới sự hướng dẫn của một giảng viên do khoa/bộ môn quản lý ngành đào tạo phân công,0,0.0
+"Em muốn cô A làm giảng viên hướng dẫn em trong kỳ thực tập doanh nghiệp thì có được không ạ, hay trường phân công ạ?",phân công.,dưới sự hướng dẫn của một giảng viên do khoa/bộ môn quản lý ngành đào tạo phân công,0,0.09999999999999999
+Ai phân công giảng viên hướng dẫn khóa thực tập doanh nghiệp?,khoa/bộ môn quản lý ngành đào tạo,khoa/bộ môn quản lý ngành đào tạo phân công,0,0.8750000000000001
+Em phải tự đi thực tập doanh nghiệp mà không có bất kì sự giúp đỡ hỗ trợ nào hay sao?,không,"Sinh viên thực tập doanh nghiệp trong tổng thời gian tối thiểu là 8 tuần, dưới sự hướng dẫn của một giảng viên do khoa/bộ môn quản lý ngành đào tạo phân công.",0,0.0
+Khi nào tổ chức báo cáo thực tập doanh nghiệp?,cuối mỗi học kỳ có mở môn thực tập.,Khoa/bộ môn quản lý ngành đào tạo tổ chức báo cáo thực tập doanh nghiệp cuối mỗi học kỳ có mở môn thực tập.,0,0.5454545454545454
+Ai tổ chức báo cáo thực tập doanh nghiệp?,Khoa/bộ môn quản lý ngành đào tạo,Khoa/bộ môn quản lý ngành đào tạo ,0,1.0
+Sinh viên báo cáo kết quả thực tập khi nào?,cuối học kỳ đó,Sinh viên đăng ký thực tập doanh nghiệp trong học kỳ nào sẽ phải báo cáo kết quả thực tập vào cuối học kỳ đó theo kế hoạch của khoa/bộ môn quản lý ngành đào tạo.,0,0.19999999999999998
+"Em đã đăng ký thực tập doanh nghiệp trong học kỳ này, vậy khi nào em phải báo cáo lại kết quả thực tập?",cuối học kỳ đó,Sinh viên đăng ký thực tập doanh nghiệp trong học kỳ nào sẽ phải báo cáo kết quả thực tập vào cuối học kỳ đó theo kế hoạch của khoa/bộ môn quản lý ngành đào tạo.,0,0.19999999999999998
+Nếu sinh viên không báo cáo vào đúng đợt báo cáo của học kỳ đã đăng ký thì sao?,xem như không đạt học phần này và nhận điểm không,Nếu sinh viên không báo cáo vào đúng đợt báo cáo của học kỳ đã đăng ký thì xem như không đạt học phần này và nhận điểm không (0).,0,0.4878048780487804
+"Em đã hoàn thành thực tập doanh nghiệp nhưng vì một số lí do em không báo cáo kết quả trong thời hạn quy định, em phải làm sao ạ?",đăng ký học lại vào các học kỳ tiếp theo.,Nếu sinh viên không báo cáo vào đúng đợt báo cáo của học kỳ đã đăng ký thì xem như không đạt học phần này và nhận điểm không (0).,0,0.25
+Em đã hoàn thành thực tập doanh nghiệp nhưng em quên báo cáo  lại thì bây giờ em báo cáo có được không ạ?,không,Nếu sinh viên không báo cáo vào đúng đợt báo cáo của học kỳ đã đăng ký thì xem như không đạt học phần này và nhận điểm không (0).,0,0.06451612903225806
+Chứng chỉ của ĐHCNTT có nằm trong hệ thống giáo dục quốc dân không?,"thuộc hệ thống văn bằng, chứng chỉ giáo dục quốc dân.","Văn bằng, chứng chỉ của Trường ĐHCNTT phát hành thuộc hệ thống văn bằng, chứng chỉ giáo dục quốc dân.",0,0.7096774193548387
+Chứng chỉ của ĐHCNTT có xịn không?,Giữ,"Văn bằng, chứng chỉ của Trường ĐHCNTT phát hành thuộc hệ thống văn bằng, chứng chỉ giáo dục quốc dân.",0,0.0
+Chứng chỉ của ĐHCNTT có uy tín không?,Giữ,"Văn bằng, chứng chỉ của Trường ĐHCNTT phát hành thuộc hệ thống văn bằng, chứng chỉ giáo dục quốc dân.",0,0.0
+Khi nào em mới được cầm văn bằng?,"ngày nhận được Quyết định thu hồi văn bằng, chứng chỉ.","Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. ",0,0.05555555555555555
+Vì sao em chưa được cấp văn bằng?,"phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng,","Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. ",0,0.10526315789473685
+Tốt nghiệp trình độ nào thì mới có văn bằng?,Giữ,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. ",0,0.0
+Sự khác nhau giữa chứng chỉ và văn bằng?,Nghĩa,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. Chứng chỉ được cấp cho người học để xác nhận kết quả học tập sau khi được bồi dưỡng hoặc nâng cao trình độ học vấn, nghề nghiệp. ",0,0.0
+So sánh chứng chỉ và văn bằng?,Giữ,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. Chứng chỉ được cấp cho người học để xác nhận kết quả học tập sau khi được bồi dưỡng hoặc nâng cao trình độ học vấn, nghề nghiệp. ",0,0.0
+Chứng chỉ là gì mà văn bằng là gì?,cung,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. Chứng chỉ được cấp cho người học để xác nhận kết quả học tập sau khi được bồi dưỡng hoặc nâng cao trình độ học vấn, nghề nghiệp. ",0,0.0
+Những đối tượng nào sẽ được cấp chứng chỉ và những đối tượng nào sẽ được cấp văn bằng?,người,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. Chứng chỉ được cấp cho người học để xác nhận kết quả học tập sau khi được bồi dưỡng hoặc nâng cao trình độ học vấn, nghề nghiệp. ",0,0.037037037037037035
+"Em muốn biết thêm về đặc điểm của chứng chỉ và văn bằng, có thể cho em biết được không?",không,"Văn bằng được cấp cho người học sau khi tốt nghiệp các trình độ đào tạo của giáo dục đại học, thạc sĩ, tiến sĩ. Chứng chỉ được cấp cho người học để xác nhận kết quả học tập sau khi được bồi dưỡng hoặc nâng cao trình độ học vấn, nghề nghiệp. ",0,0.0
+Một trong những điểm chung của văn bằng và chứng chỉ là gì?,Nghĩa,"Văn bằng, chứng chỉ được quản lý thống nhất, thực hiện phân cấp quản lý bảo đảm quyền và trách nhiệm của các đơn vị trong Trường",0,0.0
+"Mục đích của việc thực hiện phân cấp quản lý văn bằng, chứng chỉ?",bảo đảm quyền và trách nhiệm của các đơn vị trong Trường.,"Văn bằng, chứng chỉ được quản lý thống nhất, thực hiện phân cấp quản lý bảo đảm quyền và trách nhiệm của các đơn vị trong Trường",0,0.5641025641025641
+Tại sao văn bằng hay chứng chỉ cần được quản lí thống nhất ?,Nghĩa,"Văn bằng, chứng chỉ được quản lý thống nhất, thực hiện phân cấp quản lý bảo đảm quyền và trách nhiệm của các đơn vị trong Trường",0,0.0
+Được cấp văn bằng nhưng lỡ rơi xuống nước bị ướt thì tôi có được làm đơn xin cấp lại không?,có trách nhiệm cấp lại cho người học.,"Bản chính văn bằng, chứng chỉ được cấp một lần trừ trường hợp văn bằng, chứng chỉ đã cấp cho người học nhưng phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng, chứng chỉ thì đơn vị đã cấp có trách nhiệm cấp lại cho người học. ",0,0.2711864406779661
+Văn bằng hay chứng chỉ chỉ được cấp 1 lần thôi hả?,"30 ngày,","Bản chính văn bằng, chứng chỉ được cấp một lần trừ trường hợp văn bằng, chứng chỉ đã cấp cho người học nhưng phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng, chứng chỉ thì đơn vị đã cấp có trách nhiệm cấp lại cho người học. ",0,0.0
+Làm mất chứng chỉ rồi xin lại được không?,"trong thời hạn 30 ngày,","Bản chính văn bằng, chứng chỉ được cấp một lần trừ trường hợp văn bằng, chứng chỉ đã cấp cho người học nhưng phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng, chứng chỉ thì đơn vị đã cấp có trách nhiệm cấp lại cho người học. ",0,0.0
+Trường hợp làm mất bản gốc văn bằng thì làm sao?,"Yêu cầu Trường cấp bản sao, chứng thực văn bằng, chứng chỉ","Bản chính văn bằng, chứng chỉ được cấp một lần trừ trường hợp văn bằng, chứng chỉ đã cấp cho người học nhưng phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng, chứng chỉ thì đơn vị đã cấp có trách nhiệm cấp lại cho người học. ",0,0.15873015873015872
+"Tôi tên Nguyễn Văn Nam nhưng trên văn bằng cấp cho tôi tôi lại tên là Nguyễn Văn Nám, mà quy định thì chỉ được lấy văn bằng 1 lần thôi vậy trường hợp của tôi giải quyết thế nào?",Trình,"Bản chính văn bằng, chứng chỉ được cấp một lần trừ trường hợp văn bằng, chứng chỉ đã cấp cho người học nhưng phát hiện bị viết sai do lỗi của đơn vị cấp văn bằng, chứng chỉ thì đơn vị đã cấp có trách nhiệm cấp lại cho người học. ",0,0.0
+"Nguyên tắc quản lý và cấp phát văn bằng, chứng chi?","Bảo đảm công khai, minh bạch","Bảo đảm công khai, minh bạch trong cấp phát văn bằng, chứng chỉ. Nghiêm cấm mọi hành vi gian lận trong cấp phát và sử dụng văn bằng, chứng chỉ.",0,0.33333333333333337
+Thế nào là lớp học phần?,phần.,Những sinh viên theo học cùng một học phần trong cùng một khoảng thời gian và cùng một giảng viên tạo thành một lớp học phần,0,0.0
+Định nghĩa lớp học phần?,Những,Những sinh viên theo học cùng một học phần trong cùng một khoảng thời gian và cùng một giảng viên tạo thành một lớp học phần,0,0.07407407407407407
+Những sinh viên theo học cùng một học phần trong cùng một khoảng thời gian và cùng một giảng viên tạo thành lớp gì?,lớp học phần.,Lớp học phần,0,0.3333333333333333
+Cơ quan nào quy định mã số riêng cho mỗi lớp học phần?,Trường,Trường,1,1.0
+Mỗi lớp học phần được ký hiệu như thế nào?,trước.,bằng một mã số riêng do Trường quy định,0,0.0
+Lớp học phần sẽ được mở khi đạt được những điều kiện về số lượng sinh viên đăng ký như thế nào?,Tối thiểu là 50 sinh viên,"Tối thiểu là 50 sinh viên đối với các môn học đại cương và các môn học cơ sở nhóm ngành, các môn học chuyên ngành bắt buộc và chuyên đề tốt nghiệp tối thiểu là 20 sinh viên. Các môn học còn lại tối thiểu là 30 sinh viên",0,0.21428571428571425
+"Để mở lớp học phần, số lượng sinh viên đăng ký phải đạt được là bao nhiêu?",Tối thiểu là 50 sinh viên,"Tối thiểu là 50 sinh viên đối với các môn học đại cương và các môn học cơ sở nhóm ngành, các môn học chuyên ngành bắt buộc và chuyên đề tốt nghiệp tối thiểu là 20 sinh viên. Các môn học còn lại tối thiểu là 30 sinh viên",0,0.21428571428571425
+Điều kiện về số lượng sinh viên đăng ký đối với các môn học đại cương và môn học cơ sở nhóm ngành để mở lớp học phần là bao nhiêu sinh viên?,Tối thiểu là 50,Tối thiểu là 50,1,1.0
+Cần tối thiểu bao nhiêu sinh viên đối với các môn học chuyên ngành bắt buộc và chuyên đề tốt nghiệp để mở lớp học phần?,20 sinh viên.,tối thiểu là 20 sinh viên,0,0.4444444444444444
+" Trong trường hợp đặc biệt, theo đề nghị của sinh viên, khoa/bộ môn quản lý ngành đào tạo thì P.ĐTĐH có thể mở lớp học phần được không?",có thể," Trong trường hợp đặc biệt, theo đề nghị của sinh viên, khoa/bộ môn quản lý ngành đào tạo thì P.ĐTĐH có thể mở lớp ",0,0.15384615384615385
+"Nếu có đề nghị của sinh viên, khoa/bộ môn quản lý ngành đào tạo thì P.ĐTĐH có thể xem xét mở lớp học phần không?",có thể," Trong trường hợp đặc biệt, theo đề nghị của sinh viên, khoa/bộ môn quản lý ngành đào tạo thì P.ĐTĐH có thể mở lớp ",0,0.15384615384615385
+Mức học phí của lớp học phần?,"HPTCHM: mức học phí cho loại tín chỉ học phí học mới,",học phí được tính theo quy định đơn giá dành cho các lớp có số lượng sinh viên dưới chuẩn,0,0.18749999999999997
+Lớp học phần tính học phí như thế nào?,HPHK,học phí được tính theo quy định đơn giá dành cho các lớp có số lượng sinh viên dưới chuẩn,0,0.0
+"Các học phần như Thực tập doanh nghiệp, Khóa luận tốt nghiệp, môn học đồ án được mở với số lượng như thế nào?",không hạn chế số lượng,không hạn chế số lượng. ,0,0.8000000000000002
+Lớp sinh viên là gì?,"theo khóa, khoa, chương trình, ngành hoặc chuyên ngành đào tạo."," Lớp sinh viên: Lớp sinh viên được tổ chức theo khóa, khoa, chương trình, ngành hoặc chuyên ngành đào tạo",0,0.5806451612903226
+Lớp sinh viên được tổ chức như thế nào?,"theo khóa, khoa, chương trình, ngành hoặc chuyên ngành đào tạo."," Lớp sinh viên: Lớp sinh viên được tổ chức theo khóa, khoa, chương trình, ngành hoặc chuyên ngành đào tạo",0,0.5806451612903226
+Lớp sinh viên được giữ ổn định trong suốt các năm học để làm gì?,viên.,"để triển khai các hoạt động có liên quan đến công tác học tập, rèn luyện của sinh viên",0,0.0
+Mục đích của việc giữ ổn định lớp sinh viên trong suốt các năm học?,viên.,"để triển khai các hoạt động có liên quan đến công tác học tập, rèn luyện của sinh viên",0,0.0
+Các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy sẽ được mở với số lượng tối thiểu là bao nhiêu sinh viên?,20,20,1,1.0
+Số lượng sinh viên tối thiểu của các lớp học ngoại ngữ nằm trong chương trình đào tạo cho sinh viên chính quy ?,20 sinh viên.,20,0,0.5
