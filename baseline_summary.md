@@ -10,25 +10,34 @@
 - train_translated_squad_100.json: include 100% best translation of the translated SQuAD
 
 ```
+segment_documents:
+max_length=6
+stride=3
+```
+
+```
 train_reg
-number of sentences: 78
+number of docs: 75
+number of segments: 122
 number of questions: 626
-Exact Match: 0.08306709265175719 (52)
-F1:  0.40422857987548627
+Exact Match: 0.08146964856230032 (51)
+F1:  0.40623676953403537
 ```
 
 ```
 train_wiki
-number of sentences: 67
+number of docs: 67
+number of segments: 115
 number of questions: 599
-Exact Match: 0.18363939899833054 (110)
-F1:  0.47736904731553376
+Exact Match: 0.18864774624373956 (113)
+F1:  0.46438375218148154
 ```
 
 ```
 train_translated_squad_25
-number of sentences: 20043
+number of docs: 19067
+number of segments: 45052
 number of questions: 20958
-Exact Match: 0.18541845595953813 (3886)
-F1:  0.2930213403013636
+Exact Match: 0.19352991697681077 (4056)
+F1:  0.302906754051067
 ```
