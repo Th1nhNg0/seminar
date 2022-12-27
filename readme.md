@@ -8,9 +8,9 @@ overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 
 - [ ] 1. Viết journal cho phần baseline
 - [ ] 2. Preprocessing wiki data
-- [ ] 3. Metric used for re-rank answer
+- [x] 3. Metric used for re-rank answer
 
-  w0 \* retrieval_score + w1 \* predict_score (linear regression)
+  w0 \* retrieval_score + w1 \* predict_score
 
   w0 + w1= 1
 

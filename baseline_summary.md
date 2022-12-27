@@ -15,6 +15,8 @@ max_length=6
 stride=3
 ```
 
+## Base line
+
 ```
 train_reg
 number of docs: 75
@@ -40,4 +42,46 @@ number of segments: 45052
 number of questions: 20958
 Exact Match: 0.19352991697681077 (4056)
 F1:  0.302906754051067
+```
+
+## Rerank answer
+
+Test all w0,w1 pair in range (0,1,0.001) and find the best pair
+
+```
+w0 * retrieval_score + w1 * predict_score
+w0 + w1= 1
+```
+
+```
+train_reg
+number of docs: 75
+number of segments: 122
+number of questions: 626
+best_w0: 0.833
+best_w1: 0.167
+best_exact_match: 60
+best_f1: 0.44819872688227713
+```
+
+```
+train_wiki
+number of docs: 67
+number of segments: 115
+number of questions: 599
+best_w0: 0.048
+best_w1: 0.9520000000000001
+best_exact_match: 139
+best_f1: 0.5212223746067531
+```
+
+```
+train_translated_squad_25
+number of docs: 19067
+number of segments: 45052
+number of questions: 20958
+best_w0: 0.387
+best_w1: 0.613
+best_exact_match: 6078
+best_f1: 0.4407442486094088
 ```
