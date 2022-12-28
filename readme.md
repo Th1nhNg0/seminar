@@ -23,3 +23,5 @@ overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
      bm25: tuning hyperparameter k - saturated index, b- affected document length
 - [x] 9. sliding wiki_context sentence. Thay vì kí tự thì xài 1 câu
 - [ ] 10. model retrieval combining tf-idf and bm25 is highly considered according to a novel paper
+
+Đọc để hiểu: https://viblo.asia/p/bm25-thuat-toan-xep-hang-cac-van-ban-theo-do-phu-hop-Az45bWGNKxY
