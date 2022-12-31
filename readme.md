@@ -1,15 +1,19 @@
 overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 
-🏃‍♂️ RESULT:
+## 🏃‍♂️ RESULT: [summary](summary.md)
 
-- BASE LINE: [baseline summary](summary.md)
+## 🔗 CODE:
 
-📜 TO-DO:
+- [baseline](Baseline.ipynb)
+- [rerank](Rerank.ipynb)
+- [bm25](BM25.ipynb)
+
+## 📜 TO-DO:
 
 - [ ] 1. Viết journal cho phần baseline
-  - [ ] 1.1 Viết data preprocessing & collect data 
-  - [ ] 1.2 Viết Experimennt 
-  - [ ] 1.2 Resuit Compare another  
+  - [ ] 1.1 Viết data preprocessing & collect data
+  - [ ] 1.2 Viết Experimennt
+  - [ ] 1.2 Resuit Compare another
   - [ ] 1.3 Future work
 - [ ] 2. Preprocessing wiki data
 - [x] 3. Metric used for re-rank answer
