@@ -85,3 +85,27 @@ best_w1: 0.613
 best_exact_match: 6078
 best_f1: 0.4407442486094088
 ```
+
+## BM25
+
+```
+train_reg
+number of docs: 75
+number of segments: 122
+number of questions: 626
+best_w0: 0.064
+best_w1: 0.936
+best_exact_match: 56
+best_f1: 0.42795708098544266
+```
+
+```
+train_wiki
+number of docs: 67
+number of segments: 115
+number of questions: 599
+best_w0: 0.002
+best_w1: 0.998
+best_exact_match: 126
+best_f1: 0.49283093127636235
+```
