@@ -7,6 +7,10 @@ overleaf https://www.overleaf.com/5191338113vqmcbdqjmqwj
 📜 TO-DO:
 
 - [ ] 1. Viết journal cho phần baseline
+- [ ] 1.1 Viết data preprocessing & collect data 
+- [ ] 1.2 Viết Experimennt 
+- [ ] 1.2 Resuit Compare baseline 
+- [ ] 1.3 Future work
 - [ ] 2. Preprocessing wiki data
 - [x] 3. Metric used for re-rank answer
 
