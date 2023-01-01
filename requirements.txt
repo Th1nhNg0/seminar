@@ -4,3 +4,6 @@ transformers
 pandas
 tqdm
 underthesea
+pytorch
+torchaudio 
+pytorch-cuda
