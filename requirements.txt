@@ -1,0 +1,6 @@
+streamlit
+rank_bm25
+transformers
+pandas
+tqdm
+underthesea
