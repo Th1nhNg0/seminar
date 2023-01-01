@@ -11,6 +11,7 @@ from rank_bm25 import BM25Okapi
 from transformers import AutoTokenizer
 from transformers import AutoModelForQuestionAnswering
 from transformers import pipeline
+import pandas as pd
 
 st.set_page_config(
     page_title="Question Answering System",
@@ -81,8 +82,11 @@ datasets = [
 dataset = st.sidebar.selectbox(
     "Dataset", datasets, format_func=lambda x: x['name'])
 corpus, questions, bm25 = load_data(dataset['name'])
-w0 = dataset['w0']
-w1 = dataset['w1']
+top_k = st.sidebar.slider("Top K documents", 1, 30, 10)
+w0 = st.sidebar.slider("Retrieval score weight", 0., 1.,
+                       dataset['w0'], 0.001, format="%.3f")
+w1 = st.sidebar.slider("Predict score weight", 0., 1.,
+                       dataset['w1'], 0.001, format="%.3f")
 qa_model = load_model()
 
 
@@ -92,7 +96,6 @@ if question:
     bar = st.progress(0)
 
     doc_scores = get_bm25_score(question, corpus, bm25)
-    top_k = st.sidebar.slider("Top K documents", 1, 30, 10)
     top_k_idx = doc_scores.argsort()[-top_k:][::-1]
 
     results = []
@@ -126,6 +129,11 @@ if question:
         col2.write('Score: ' + str(result['score']))
         col2.write('Retrieval score: ' + str(result['retrieval_score']))
         col2.write('Best answer: ' + result['answers'][0]['answer'])
-        col2.table(result['answers'])
+        df = pd.DataFrame(result['answers'])
+        # show full number
+        df = df.style.format({'start': '{:,.0f}', 'end': '{:,.0f}',
+                              'predict_score': '{:,.15f}'})
+
+        col2.dataframe(df, use_container_width=True)
     loading.empty()
     bar.empty()
