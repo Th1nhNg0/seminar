@@ -102,16 +102,17 @@ if question:
         result = qa_model(question=question, context=corpus[idx], topk=5)
         for r in result:
             r['predict_score'] = r['score']
-            r['score'] = w0*retrieval_score + w1*r['predict_score']
+            del r['score']
         data = {
             "context": corpus[idx],
             "answers": result,
             "retrieval_score": retrieval_score,
+            "score": w0*retrieval_score + w1*result[0]['predict_score']
         }
         results.append(data)
 
     results = sorted(
-        results, key=lambda x: x['answers'][0]['score'], reverse=True)
+        results, key=lambda x: x['score'], reverse=True)
     for i, result in enumerate(results):
         answer_start = result['answers'][0]['start']
         answer_end = result['answers'][0]['end']
@@ -122,9 +123,9 @@ if question:
         col1.header("Context")
         col1.write(context)
         col2.header("Answer")
-        col2.write('Score: ' + str(result['answers'][0]['score']))
+        col2.write('Score: ' + str(result['score']))
         col2.write('Retrieval score: ' + str(result['retrieval_score']))
         col2.write('Best answer: ' + result['answers'][0]['answer'])
-        col2.dataframe(result['answers'])
+        col2.table(result['answers'])
     loading.empty()
     bar.empty()
