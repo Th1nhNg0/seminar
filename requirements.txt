@@ -6,4 +6,4 @@ tqdm
 underthesea
 pytorch
 torchaudio 
-pytorch-cuda=11.6
+pytorch-cuda==11.6
