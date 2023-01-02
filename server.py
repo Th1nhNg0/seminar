@@ -12,6 +12,7 @@ from transformers import AutoTokenizer
 from transformers import AutoModelForQuestionAnswering
 from transformers import pipeline
 import pandas as pd
+import torch
 
 st.set_page_config(
     page_title="Question Answering System",
@@ -54,8 +55,9 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained("nguyenvulebinh/vi-mrc-large")
     model = AutoModelForQuestionAnswering.from_pretrained(
         "nguyenvulebinh/vi-mrc-large")
+    have_gpu = torch.cuda.is_available()
     qa_model = pipeline("question-answering", model=model,
-                        tokenizer=tokenizer, device=0)
+                        tokenizer=tokenizer, device=0 if have_gpu else -1)
     return qa_model
 
 
