@@ -33,3 +33,17 @@ overleaf https://www.overleaf.com/8896864255fpfxxfymkncf
 - [ ] 10. model retrieval combining tf-idf and bm25 is highly considered according to a novel paper
 
 Đọc để hiểu: https://viblo.asia/p/bm25-thuat-toan-xep-hang-cac-van-ban-theo-do-phu-hop-Az45bWGNKxY
+
+
+
+In queue
+
+https://medium.com/@papai143/information-retrieval-with-document-re-ranking-with-bert-and-bm25-7c29d738df73
+
+https://www.sciencedirect.com/science/article/pii/S131915781830082X
+
+https://www.sciencedirect.com/science/article/pii/S131915781830082X#b0120
+
+https://en.wikipedia.org/wiki/Question_answering#Types_of_question_answering
+
+https://blog.paperspace.com/how-to-train-question-answering-machine-learning-models/
