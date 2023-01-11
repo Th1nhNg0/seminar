@@ -64,6 +64,12 @@ def load_model():
 
 st.sidebar.title("Question Answering System")
 question = st.sidebar.text_input("Question", placeholder="Nhập câu hỏi")
+st.sidebar.markdown("""
+Example:
+- thủ đô nước Việt Nam tên là gì?
+- đâu là chiến thắng quân sự lớn nhất trong cuộc kháng chiến chống Pháp?
+"""
+                    )
 datasets = [
     {
         "name": "train_reg",
