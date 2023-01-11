@@ -13,6 +13,7 @@ from transformers import AutoModelForQuestionAnswering
 from transformers import pipeline
 import pandas as pd
 import torch
+import time
 
 st.set_page_config(
     page_title="Question Answering System",
@@ -94,6 +95,7 @@ qa_model = load_model()
 
 if question:
     st.title(question)
+    start_time = time.time()
     loading = st.text("Đang tìm câu trả lời...")
     bar = st.progress(0)
 
@@ -118,24 +120,34 @@ if question:
 
     results = sorted(
         results, key=lambda x: x['score'], reverse=True)
-    for i, result in enumerate(results):
-        answer_start = result['answers'][0]['start']
-        answer_end = result['answers'][0]['end']
-        context = result['context']
-        context = context[:answer_start] + '`' + \
-            context[answer_start:answer_end] + '`' + context[answer_end:]
-        col1, col2 = st.columns(2)
-        col1.header("Context")
-        col1.write(context)
-        col2.header("Answer")
-        col2.write('Score: ' + str(result['score']))
-        col2.write('Retrieval score: ' + str(result['retrieval_score']))
-        col2.write('Best answer: ' + result['answers'][0]['answer'])
-        df = pd.DataFrame(result['answers'])
-        # show full number
-        df = df.style.format({'start': '{:,.0f}', 'end': '{:,.0f}',
-                              'predict_score': '{:,.15f}'})
 
-        col2.dataframe(df, use_container_width=True)
-    loading.empty()
+    tab1, tab2 = st.tabs(["Result", "Top K documents"])
+    with tab1:
+        for i, result in enumerate(results):
+            answer_start = result['answers'][0]['start']
+            answer_end = result['answers'][0]['end']
+            context = result['context']
+            context = context[:answer_start] + '`' + \
+                context[answer_start:answer_end] + '`' + context[answer_end:]
+            col1, col2 = st.columns(2)
+            col1.header("Context")
+            col1.write(context)
+            col2.header("Answer")
+            col2.write('Score: ' + str(result['score']))
+            col2.write('Retrieval score: ' + str(result['retrieval_score']))
+            col2.write('Best answer: ' + result['answers'][0]['answer'])
+            df = pd.DataFrame(result['answers'])
+            # show full number
+            df = df.style.format({'start': '{:,.0f}', 'end': '{:,.0f}',
+                                  'predict_score': '{:,.15f}'})
+            col2.dataframe(df, use_container_width=True)
+    with tab2:
+        for i, idx in enumerate(top_k_idx):
+            st.write('Document ' + str(i+1))
+            st.write(corpus[idx])
+            st.write('Score: ' + str(doc_scores[idx]))
+
+    end_time = time.time()
+    loading.text("Run time: " +
+                 str(round(end_time-start_time, 2)) + "s")
     bar.empty()
