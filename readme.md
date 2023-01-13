@@ -1,5 +1,12 @@
 overleaf https://www.overleaf.com/8896864255fpfxxfymkncf
 
+## Run demo:
+
+```bash
+pip install -r requirements.txt
+streamlit run server.py
+```
+
 ## 🏃‍♂️ RESULT: [summary](summary.md)
 
 ## 🔗 CODE:
@@ -33,8 +40,6 @@ overleaf https://www.overleaf.com/8896864255fpfxxfymkncf
 - [ ] 10. model retrieval combining tf-idf and bm25 is highly considered according to a novel paper
 
 Đọc để hiểu: https://viblo.asia/p/bm25-thuat-toan-xep-hang-cac-van-ban-theo-do-phu-hop-Az45bWGNKxY
-
-
 
 In queue
 
